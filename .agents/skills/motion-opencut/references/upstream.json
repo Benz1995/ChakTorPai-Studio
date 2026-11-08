@@ -1,0 +1,15 @@
+{
+  "tool": "OpenCut",
+  "repository": "OpenCut-app/OpenCut",
+  "repository_url": "https://github.com/OpenCut-app/OpenCut",
+  "docs_urls": [
+    "https://github.com/OpenCut-app/OpenCut/blob/main/README.md",
+    "https://github.com/OpenCut-app/OpenCut/blob/main/LICENSE"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "MIT",
+  "license_note": "Requested repository uses MIT; confirm the actual selected application/release and media rights independently.",
+  "package_names": [],
+  "integration_status": "on-demand",
+  "source_notes": "Current README says OpenCut is undergoing a full rewrite. Editor API, MCP and headless mode are described as upcoming. It points current users to opencut-classic and says opencut.app runs the classic version. No adapter is added here."
+}

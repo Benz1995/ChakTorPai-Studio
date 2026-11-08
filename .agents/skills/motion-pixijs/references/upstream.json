@@ -1,0 +1,17 @@
+{
+  "tool": "PixiJS",
+  "repository": "pixijs/pixijs",
+  "repository_url": "https://github.com/pixijs/pixijs",
+  "docs_urls": [
+    "https://github.com/pixijs/pixijs/blob/dev/README.md",
+    "https://github.com/pixijs/pixijs/blob/dev/LICENSE"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "MIT",
+  "license_note": "MIT in the checked LICENSE. Individual textures, fonts and add-on filters may carry separate terms.",
+  "package_names": [
+    "pixi.js"
+  ],
+  "integration_status": "on-demand",
+  "source_notes": "Current README documents WebGL/WebGPU renderers, asynchronous Application initialization, Assets loading, sprites, text, masks and filters. Its live ticker example must be adapted for video capture."
+}

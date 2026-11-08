@@ -1,0 +1,45 @@
+profile_id: short-drama
+name: "Short Drama & Film"
+description: "Quality assurance profile for short dramas, vertical micro-dramas, short films, and dramatic scenes."
+target_work_type: short-drama
+default_world_mode: realistic
+weights:
+  story_logic: 25
+  emotion_and_character: 25
+  reality_and_feasibility: 20
+  narrative_pacing: 20
+  visual_continuity: 10
+
+criteria_map:
+  story_logic:
+    judge: story-logic-judge
+    description: "Cause-effect coherence, absence of plot holes, timeline continuity, character motivations."
+  emotion_and_character:
+    judge: emotion-judge
+    description: "Believable emotional arc, organic dialogue registers, character relationships, emotional payoff."
+  reality_and_feasibility:
+    judge: physics-judge
+    description: "Physical feasibility, human biological limits, situational logic according to chosen world mode."
+  narrative_pacing:
+    judge: audience-judge
+    description: "Dramatic tension curve, 3-second hook, cliffhangers, absence of dead air or rushed beats."
+  visual_continuity:
+    judge: visual-judge
+    description: "Continuity of props, costume, spatial blocking, facial expressions, and shot transitions."
+
+mandatory_judges:
+  - story-logic-judge
+  - emotion-judge
+  - physics-judge
+  - audience-judge
+  - devils-advocate
+  - chief-judge
+
+conditional_judges:
+  visual-judge: "Only evaluated when image/video assets or detailed storyboard descriptions are present."
+
+critical_failure_triggers:
+  - dead_character_resurrection_without_lore
+  - impossible_timeline_paradox
+  - motivation_inversion_without_cause
+  - fatal_unmotivated_teleportation

@@ -1,0 +1,44 @@
+profile_id: cartoon
+name: "Cartoon & Animation"
+description: "Quality assurance profile for animation scripts, low-poly chibi series, storyboards, character sheets, and AI sprite scenes."
+target_work_type: cartoon
+default_world_mode: fantasy
+weights:
+  world_logic: 25
+  character_continuity: 25
+  story_and_emotion: 20
+  visual_storytelling: 20
+  pacing: 10
+
+criteria_map:
+  world_logic:
+    judge: physics-judge
+    description: "Internal adherence to established fantasy/sci-fi world rules, magic mechanics, and consistency."
+  character_continuity:
+    judge: visual-judge
+    description: "Character identity retention (hair, outfit, props, proportions, color palette) across cuts."
+  story_and_emotion:
+    judge: story-logic-judge
+    description: "Character motivation, episodic stakes, emotional journey, comedic or dramatic timing."
+  visual_storytelling:
+    judge: visual-judge
+    description: "Camera staging, readability of action, dynamic silhouette, safe zones, composition clarity."
+  pacing:
+    judge: audience-judge
+    description: "Rhythm of movement and scene duration, holding viewer attention, cliffhangers."
+
+mandatory_judges:
+  - story-logic-judge
+  - visual-judge
+  - physics-judge
+  - audience-judge
+  - devils-advocate
+  - chief-judge
+
+conditional_judges:
+  emotion-judge: "Evaluated for character-driven emotional narrative animation."
+
+critical_failure_triggers:
+  - violation_of_explicit_world_rules
+  - unexplained_character_model_or_asset_mutation
+  - spatial_disorientation_violating_180_degree_rule_critically

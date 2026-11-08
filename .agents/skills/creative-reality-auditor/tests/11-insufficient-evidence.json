@@ -1,0 +1,38 @@
+{
+  "test_id": "TEST-11",
+  "name": "Missing essential assets triggering insufficient evidence verdict",
+  "work_type": "cartoon",
+  "world_mode": "stylized",
+  "title": "สไปรต์ตัวละครและฉากต่อสู้",
+  "content": "ขอให้ตรวจความต่อเนื่องของหน้าตาตัวละคร อัตราส่วนนิ้วมือ แสงเงา และสีชุดระหว่างคัทที่ 1 ถึง 5",
+  "media_assets": [],
+  "evaluation": {
+    "insufficient_evidence": true,
+    "insufficient_evidence_reason": "ผู้ใช้ร้องขอให้ตรวจความต่อเนื่องของอัตราส่วนนิ้วมือ แสงเงา และใบหน้า แต่ไม่มีไฟล์ภาพหรือ storyboard แนบมาในระบบ",
+    "scores": {},
+    "issues": [
+      {
+        "id": "ISSUE-NO-MEDIA",
+        "judge": "visual-judge",
+        "category": "MISSING_ASSETS",
+        "severity": "HIGH",
+        "location": "Global Submission",
+        "problem": "ไม่มีไฟล์ภาพหรือ Asset ID อ้างอิงให้ตรวจสอบ",
+        "evidence": "media_assets array ว่างเปล่า และไม่มีภาพในไดเรกทอรี",
+        "why_it_matters": "ห้ามระบบแกล้งทำเป็นว่าตรวจภาพแล้วโดยไม่มีไฟล์จริงเด็ดขาด (Strict Groundedness Rule)",
+        "suggested_fix": "แนบไฟล์ภาพสไปรต์หรือ URL ของรูปภาพเพื่อเริ่มการตรวจสอบ"
+      }
+    ],
+    "judge_opinions": {
+      "visual-judge": {
+        "status": "SKIPPED_INSUFFICIENT_EVIDENCE",
+        "summary": "ไม่สามารถตรวจความต่อเนื่องทางสายตาได้เนื่องจากไม่มีข้อมูลภาพ"
+      }
+    }
+  },
+  "expected": {
+    "verdict": "INSUFFICIENT_EVIDENCE",
+    "has_critical_fail": false,
+    "passed": false
+  }
+}

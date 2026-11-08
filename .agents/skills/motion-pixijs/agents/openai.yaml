@@ -1,0 +1,6 @@
+interface:
+  display_name: "PixiJS"
+  short_description: "Create controlled GPU-powered 2D motion"
+  default_prompt: "Use $motion-pixijs for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

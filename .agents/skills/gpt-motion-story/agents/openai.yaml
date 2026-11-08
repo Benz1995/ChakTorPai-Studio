@@ -1,0 +1,6 @@
+interface:
+  display_name: "GPT Motion Story"
+  short_description: "Blend GPT illustrations with directed story motion"
+  default_prompt: "Use $gpt-motion-story to create an illustrated motion story in this project."
+policy:
+  allow_implicit_invocation: true

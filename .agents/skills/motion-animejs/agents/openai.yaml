@@ -1,0 +1,6 @@
+interface:
+  display_name: "Anime.js"
+  short_description: "Choreograph seekable animation timelines"
+  default_prompt: "Use $motion-animejs for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

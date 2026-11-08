@@ -1,0 +1,6 @@
+# ChakTorPai Studio Python Dependencies
+Pillow>=9.0.0
+requests>=2.28.0
+
+# หมายเหตุ: จำเป็นต้องมี FFmpeg และ ffprobe ติดตั้งในระบบ (อยู่ใน PATH)
+# เพื่อใช้ในการรวมวิดีโอ (final.py) และวิเคราะห์ความยาวเสียง (tl.py)

@@ -1,0 +1,44 @@
+profile_id: storytelling
+name: "Creative Storytelling & Audio Drama"
+description: "Quality assurance profile for fiction, audio novels, serialized voice scripts, and imaginative narratives."
+target_work_type: storytelling
+default_world_mode: realistic
+weights:
+  narrative_logic_and_world: 25
+  emotional_and_character_depth: 25
+  pacing_and_tension: 20
+  voice_and_dialogue_craft: 20
+  audience_engagement: 10
+
+criteria_map:
+  narrative_logic_and_world:
+    judge: story-logic-judge
+    description: "Internal lore consistency, plot progression, payoff of setups, absence of arbitrary author intrusions."
+  emotional_and_character_depth:
+    judge: emotion-judge
+    description: "Multi-dimensional character psychology, believable moral stakes, meaningful character change."
+  pacing_and_tension:
+    judge: audience-judge
+    description: "Rhythm of revelation, rising action, breathers, suspense management."
+  voice_and_dialogue_craft:
+    judge: emotion-judge
+    description: "Natural Thai dialogue flow (anti-calque, spoken registers), evocative acoustic imagery for audio."
+  audience_engagement:
+    judge: audience-judge
+    description: "Immersive atmosphere, hook intrigue, reader investment in character outcomes."
+
+mandatory_judges:
+  - story-logic-judge
+  - emotion-judge
+  - audience-judge
+  - reality-judge
+  - devils-advocate
+  - chief-judge
+
+conditional_judges:
+  physics-judge: "Evaluated if physical or sci-fi mechanics play a decisive role in the plot."
+
+critical_failure_triggers:
+  - deus_ex_machina_resolving_central_conflict_without_setup
+  - fatal_lore_contradiction
+  - unearned_character_personality_reset

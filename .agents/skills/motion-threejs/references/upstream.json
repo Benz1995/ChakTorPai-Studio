@@ -1,0 +1,21 @@
+{
+  "tool": "Three.js",
+  "repository": "mrdoob/three.js",
+  "repository_url": "https://github.com/mrdoob/three.js",
+  "docs_urls": [
+    "https://github.com/mrdoob/three.js/blob/dev/README.md",
+    "https://github.com/mrdoob/three.js/blob/dev/LICENSE"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "MIT",
+  "license_note": "MIT from upstream LICENSE; model and texture licenses remain separate.",
+  "package_names": [
+    "three",
+    "@react-three/fiber",
+    "@remotion/three",
+    "@sparkjsdev/spark"
+  ],
+  "integration_status": "existing",
+  "project_integration_note": "studio3d template (src/remotion/three/Stage3D.tsx): @remotion/three 4.0.538 + @react-three/fiber 9.8.2 WebGL scenes with GLB, HDRI, HarfBuzz-shaped Thai 3D text and Spark 2.4 Gaussian splats, frame-driven and seek-checked (2026-10-28). Prism.tsx keeps the math-to-SVG example.",
+  "source_notes": "JavaScript 3D library with WebGL/WebGPU and additional renderers as addons. The real-time animation loop needs adaptation to Remotion frame rendering."
+}

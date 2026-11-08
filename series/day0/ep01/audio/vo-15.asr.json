@@ -1,0 +1,19 @@
+{
+  "transcript": "ถ้าเป็นคุณจะเชื่อชายแก่หรือวิ่งตามฝูงคน คอมเมนต์มา A หรือ B?",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 6.56,
+      "text": "ถ้าเป็นคุณจะเชื่อชายแก่หรือวิ่งตามฝูงคน คอมเมนต์มา A หรือ B?"
+    }
+  ],
+  "language": "th",
+  "model": "thonburian-whisper-th-large-v3",
+  "device": "cpu",
+  "gpu": null,
+  "computeType": "int8",
+  "batchSize": 0,
+  "droppedNonThaiSegments": 0,
+  "gpuFallback": null,
+  "timingSource": "ASR segments"
+}

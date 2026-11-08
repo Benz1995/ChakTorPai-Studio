@@ -1,0 +1,19 @@
+{
+  "transcript": "เช้าวันเสาร์ธรรมดาน้องกำลังกินข้าวส่วนหมาเข้าตูนอนอยู่ใต้โต๊ะ",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.92,
+      "text": "เช้าวันเสาร์ธรรมดาน้องกำลังกินข้าวส่วนหมาเข้าตูนอนอยู่ใต้โต๊ะ"
+    }
+  ],
+  "language": "th",
+  "model": "thonburian-whisper-th-large-v3",
+  "device": "cpu",
+  "gpu": null,
+  "computeType": "int8",
+  "batchSize": 0,
+  "droppedNonThaiSegments": 0,
+  "gpuFallback": null,
+  "timingSource": "ASR segments"
+}

@@ -1,0 +1,36 @@
+{
+  "test_id": "TEST-07",
+  "name": "Content with proven factual error",
+  "work_type": "content",
+  "world_mode": "realistic",
+  "title": "5 นาทีรอบโลก: สงครามโลกครั้งที่ 2 จบปีไหน?",
+  "content": "สคริปต์: 'รู้หรือไม่ครับว่า สงครามโลกครั้งที่ 2 สิ้นสุดลงอย่างเป็นทางการเมื่อปี ค.ศ. 1975 หลังจากการลงนามในสนธิสัญญาแวร์ซายส์ที่กรุงปารีส'",
+  "evaluation": {
+    "scores": {
+      "factual_accuracy": 1.0,
+      "audience_engagement": 7.5,
+      "story_structure": 6.0,
+      "clarity": 7.0,
+      "audience_fit": 6.5
+    },
+    "issues": [
+      {
+        "id": "ISSUE-FACT-01",
+        "judge": "reality-judge",
+        "category": "FACTUAL_ERROR",
+        "severity": "CRITICAL",
+        "location": "Opening Hook",
+        "problem": "ระบุปีสิ้นสุดสงครามโลกครั้งที่ 2 และสนธิสัญญาผิดพลาดอย่างร้ายแรง",
+        "evidence": "สงครามโลกครั้งที่ 2 สิ้นสุดลงเมื่อปี ค.ศ. 1945 (พ.ศ. 2488) ไม่ใช่ 1975 ส่วนสนธิสัญญาแวร์ซายส์เป็นของสงครามโลกครั้งที่ 1",
+        "why_it_matters": "ข้อมูลผิดพลาดเชิงประวัติศาสตร์อย่างสิ้นเชิง ทำลายความน่าเชื่อถือของช่องความรู้",
+        "suggested_fix": "แก้ไขเป็น: 'สงครามโลกครั้งที่ 2 สิ้นสุดลงเมื่อปี ค.ศ. 1945 หลังจากการประกาศยอมแพ้ของญี่ปุ่น'",
+        "alternative_fix": "ระบุเป็น พ.ศ. 2488 เพื่อให้เข้ากับกลุ่มเป้าหมายคนไทย"
+      }
+    ]
+  },
+  "expected": {
+    "verdict": "REVISE",
+    "has_critical_fail": true,
+    "passed": false
+  }
+}

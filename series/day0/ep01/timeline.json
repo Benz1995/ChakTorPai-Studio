@@ -1,0 +1,828 @@
+{
+ "id": "day0-ep01",
+ "series": "วันที่ 0",
+ "episode": "ตอนที่ 1 · ไซเรน",
+ "content_studio": {
+  "project": "6Q9g7R_TFm",
+  "content": "F2382pG3tg",
+  "voice": "FfrJDiyJZK"
+ },
+ "look": {
+  "sat": 0.92,
+  "contrast": 1.06,
+  "tint": [
+   30,
+   45,
+   60
+  ],
+  "tint_a": 0.05,
+  "grain": 0.05
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "len": 4.0,
+   "type": "push",
+   "image": "images/eyes-ecu.png",
+   "anchor": [
+    0.5,
+    0.22
+   ],
+   "zoom": [
+    1.04,
+    1.18
+   ],
+   "pulse": [
+    255,
+    20,
+    20
+   ],
+   "pulse_hz": 1.1,
+   "pulse_alpha": 30,
+   "vo": "audio/vo-01.mp3",
+   "th": "ถ้าคุณมีเวลาแค่สิบห้านาที…\\Nคุณจะคว้าอะไรติดมือไปได้บ้าง",
+   "en": "If you had only fifteen minutes… what would you take?"
+  },
+  {
+   "id": "s02",
+   "len": 5.0,
+   "type": "push",
+   "image": "images/kitchen.png",
+   "zoom": [
+    1.1,
+    1.04
+   ],
+   "pan": 25,
+   "vo": "audio/vo-02.mp3",
+   "th": "มันเริ่มต้นในเช้าวันหยุดที่ดูเหมือนไม่มีอะไร…\\Nน้องกำลังนั่งกินข้าว ส่วนหมาข้าวตู นอนกลิ้งอยู่ใต้โต๊ะ",
+   "en": "It started on a calm holiday. Your brother eats; Khao Tu lounges under the table."
+  },
+  {
+   "id": "s03",
+   "len": 3.2,
+   "type": "push",
+   "image": "../ep00/images/s1-phone.png",
+   "anchor": [
+    0.5,
+    0.42
+   ],
+   "zoom": [
+    1.04,
+    1.14
+   ],
+   "buzz": true,
+   "pulse": [
+    255,
+    20,
+    20
+   ],
+   "pulse_hz": 2.2,
+   "pulse_alpha": 40,
+   "vo": "audio/vo-03.mp3",
+   "th": "จู่ ๆ สัญญาณเตือนภัย ก็กรีดร้องผ่านมือถือทุกเครื่องพร้อมกัน…",
+   "en": "Suddenly, warning alarms shrieked through every phone at once…"
+  },
+  {
+   "id": "s04",
+   "len": 4.0,
+   "type": "push",
+   "image": "images/alert-phones.png",
+   "zoom": [
+    1.04,
+    1.14
+   ],
+   "buzz": true,
+   "dof": [
+    0,
+    5
+   ],
+   "dim": 0.3,
+   "pulse": [
+    255,
+    20,
+    20
+   ],
+   "pulse_hz": 1.4,
+   "pulse_alpha": 30,
+   "vo": "audio/vo-04.mp3",
+   "th": "ขีปนาวุธกำลังพุ่งตรงมา… อีกแค่สิบห้านาที!",
+   "en": "Missiles incoming… only fifteen minutes left!"
+  },
+  {
+   "id": "s05",
+   "len": 2.8,
+   "type": "push",
+   "image": "images/brother-scared.png",
+   "anchor": [
+    0.5,
+    0.38
+   ],
+   "zoom": [
+    1.02,
+    1.12
+   ],
+   "pulse": [
+    255,
+    20,
+    20
+   ],
+   "pulse_hz": 1.4,
+   "pulse_alpha": 22,
+   "vo": "audio/vo-child.mp3",
+   "vo_at": 0.3,
+   "th": "\"พี่ครับ… เราจะตายไหมอ่ะ\"",
+   "en": "\"Are we going to die?\""
+  },
+  {
+   "id": "s06",
+   "len": 3.0,
+   "type": "push",
+   "image": "images/window-street.png",
+   "zoom": [
+    1.05,
+    1.12
+   ],
+   "pan": -30,
+   "end_shake": 7,
+   "dof": [
+    8,
+    0
+   ],
+   "dof_time": 0.4,
+   "vo": "audio/vo-05.mp3",
+   "th": "ข้างนอก… เสียงหวีดร้องหนีตายดังระงมไปทั่วทั้งซอย",
+   "en": "Outside, screams of panic echoed across the street."
+  },
+  {
+   "id": "s07a",
+   "len": 1.7,
+   "type": "push",
+   "image": "images/items.png",
+   "anchor": [
+    0.3,
+    0.3
+   ],
+   "zoom": [
+    1.45,
+    1.55
+   ],
+   "dip": false
+  },
+  {
+   "id": "s07b",
+   "len": 1.7,
+   "type": "push",
+   "image": "images/items.png",
+   "anchor": [
+    0.7,
+    0.55
+   ],
+   "zoom": [
+    1.45,
+    1.55
+   ],
+   "dip": false
+  },
+  {
+   "id": "s07c",
+   "len": 1.9,
+   "type": "push",
+   "image": "images/items.png",
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.25,
+    1.05
+   ],
+   "dip": false
+  },
+  {
+   "id": "s08",
+   "len": 3.4,
+   "type": "push",
+   "image": "images/brother-dino.png",
+   "anchor": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.03,
+    1.13
+   ],
+   "vo": "audio/vo-07.mp3",
+   "th": "แต่น้องไม่ยอมปล่อย…\\Nไดโนเสาร์ตัวเดียวที่เขารักที่สุด",
+   "en": "Ton Kla refuses to let go of the only dinosaur he loves."
+  },
+  {
+   "id": "s09",
+   "len": 3.4,
+   "type": "push",
+   "image": "images/doorway.png",
+   "anchor": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.02,
+    1.12
+   ],
+   "transition": "whip",
+   "end_shake": 5,
+   "vo": "audio/vo-08.mp3",
+   "th": "เวลาเหลือแค่สิบเอ็ดนาที…\\Nคุณกำมือน้องไว้แน่นแล้วพาฝ่าออกไป",
+   "en": "Eleven minutes left. You grip his hand tight and push outside."
+  },
+  {
+   "id": "s10",
+   "len": 3.6,
+   "type": "run",
+   "plate": "../ep00/images/s3-plate.png",
+   "poses": [
+    "../ep00/images/s3-run-a.png",
+    "../ep00/images/s3-run-b.png"
+   ],
+   "scale": [
+    0.82,
+    0.92
+   ],
+   "fg": "../characters/fg-debris.png",
+   "fg_drift": 80,
+   "vo": "audio/vo-09.mp3",
+   "th": "ผู้คนแตกตื่นวิ่งหนีตายกันวุ่น…\\Nแต่ไม่มีใครรู้เลยว่าจะไปทางไหน",
+   "en": "Crowds fleeing in terror… nobody knows where to go."
+  },
+  {
+   "id": "s11",
+   "len": 3.8,
+   "type": "push",
+   "image": "images/jam-topdown.png",
+   "zoom": [
+    1.18,
+    1.06
+   ],
+   "vo": "audio/vo-10.mp3",
+   "th": "ข้างล่างคือทะเลรถที่กลายเป็นอัมพาต…\\Nบนสะพานลอยคนก็เบียดเสียดแน่นเอี้ยดจนแทบจะเหยียบกัน",
+   "en": "Gridlock paralyzes the street below; the footbridge is packed solid."
+  },
+  {
+   "id": "s12",
+   "len": 4.8,
+   "type": "push",
+   "image": "images/kru-ek-door.png",
+   "anchor": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.02,
+    1.1
+   ],
+   "transition": "whip",
+   "whip_dir": -1,
+   "vo": "audio/vo-11.mp3",
+   "th": "แล้วมีเสียงตะโกนลั่นจากร้านซ่อมวิทยุเก่า…\\N\"เฮ้ยไอ้หนู! หลบทางนี้เร็วลูก!\"",
+   "en": "A shout from an old radio shop: \"Kids, over here!\""
+  },
+  {
+   "id": "s13",
+   "len": 5.2,
+   "type": "push",
+   "image": "images/fork.png",
+   "zoom": [
+    1.12,
+    1.02
+   ],
+   "vo": "audio/vo-12.mp3",
+   "th": "ชายแก่แปลกหน้า… หรือสถานีรถไฟใต้ดิน\\Nที่ฝูงชนกำลังแห่กันไป",
+   "en": "A stranger… or the subway everyone is running to?"
+  },
+  {
+   "id": "s14",
+   "len": 2.2,
+   "type": "push",
+   "image": "images/hands.png",
+   "zoom": [
+    1.04,
+    1.12
+   ],
+   "end_shake": 4,
+   "vo": "audio/vo-13.mp3",
+   "th": "สิบวินาทีสุดท้าย…",
+   "en": "Ten seconds."
+  },
+  {
+   "id": "s15",
+   "len": 7.0,
+   "type": "reveal",
+   "bg": "../ep00/images/s3-plate.png",
+   "chars": [
+    "../characters/boy.png",
+    "../characters/brother.png",
+    "../characters/dog.png"
+   ],
+   "tremble": [
+    1
+   ],
+   "blink": {
+    "0": "../characters/boy-blink.png",
+    "1": "../characters/brother-blink.png"
+   },
+   "swaps": [
+    {
+     "at": 2.0,
+     "chars": [
+      "../characters/boy-look.png",
+      "../characters/brother-look.png",
+      "../characters/dog-look.png"
+     ]
+    }
+   ],
+   "cloud": "../characters/cloud-lowpoly.png",
+   "cloud_base": [
+    700,
+    600
+   ],
+   "cloud_width": 500,
+   "flash_at": 3.2,
+   "fg": "../characters/fg-debris.png",
+   "fg_drift": 30,
+   "vo": "audio/vo-14.mp3",
+   "th": "และวินาทีนั้น… ท้องฟ้าทั้งผืน ก็สว่างวาบจนขาวโพลน",
+   "en": "And in that second… the whole sky burned blinding white."
+  },
+  {
+   "id": "s16",
+   "len": 5.8,
+   "type": "push",
+   "image": "images/kru-ek-door.png",
+   "anchor": [
+    0.5,
+    0.55
+   ],
+   "zoom": [
+    1.1,
+    1.02
+   ],
+   "cut_gain": 0.38
+  },
+  {
+   "id": "s17",
+   "len": 4.2,
+   "type": "push",
+   "image": "images/lie-down.png",
+   "zoom": [
+    1.02,
+    1.1
+   ],
+   "end_shake": 3,
+   "cut_gain": 0.38
+  },
+  {
+   "id": "s18",
+   "len": 4.8,
+   "type": "push",
+   "image": "images/basement-radio.png",
+   "zoom": [
+    1.04,
+    1.12
+   ],
+   "cut_gain": 0.38
+  },
+  {
+   "id": "s19",
+   "len": 7.8,
+   "type": "push",
+   "image": "images/fork.png",
+   "zoom": [
+    1.14,
+    1.04
+   ],
+   "transition": "whip"
+  },
+  {
+   "id": "s20",
+   "len": 2.6,
+   "type": "push",
+   "image": "images/aftermath.png",
+   "zoom": [
+    1.0,
+    1.06
+   ],
+   "ash": true
+  },
+  {
+   "id": "s21",
+   "len": 3.6,
+   "type": "push",
+   "image": "images/basement-radio.png",
+   "zoom": [
+    1.06,
+    1.06
+   ],
+   "dim": 0.15,
+   "cut_gain": 0.3
+  }
+ ],
+ "vo": [
+  {
+   "file": "audio/vo-06.mp3",
+   "shot": "s07a",
+   "at": 0.2
+  },
+  {
+   "file": "audio/vo-15.mp3",
+   "shot": "s19",
+   "at": 0.8
+  },
+  {
+   "file": "audio/vo-lesson.mp3",
+   "shot": "s16",
+   "at": 0.2
+  }
+ ],
+ "subs": [
+  {
+   "shot": "s07a",
+   "start": 0.2,
+   "end": {
+    "shot": "s07c",
+    "at": 1.8
+   },
+   "th": "มือไม้สั่นแต่ต้องรีบกวาดของลงเป้…\\Nทั้งน้ำดื่ม ไฟฉาย แผงยาที่คว้าทัน…",
+   "en": "Hands shaking, grabbing everything into the bag: water, torch, medicine…"
+  }
+ ],
+ "lines": [
+  {
+   "file": "audio/vo-lesson.mp3",
+   "text": "[เล่าชัด ๆ จริงจัง] ถ้าเจอจริง... ได้รับเตือน ให้เข้าอาคารที่ใกล้ที่สุด ไปชั้นใต้ดิน ไกลหน้าต่าง... ถ้าอยู่กลางแจ้งตอนระเบิด หันหลัง ปิดตา นอนคว่ำ... แล้วอยู่ข้างในอย่างน้อยยี่สิบสี่ชั่วโมง จนทางการบอกว่าปลอดภัย",
+   "voice": "XELzaccf66eUgLtL3BV1"
+  },
+  {
+   "file": "audio/vo-child.mp3",
+   "text": "[กลัว เสียงสั่น] พี่ครับ... เราจะตายไหมอ่ะ",
+   "voice": "w3e1Jn4F37O7wDwETrJ9",
+   "pitch": 1.18
+  }
+ ],
+ "sfx_bed": null,
+ "cut_sfx": {
+  "prompt": "air whoosh sound effect, a quick swoosh of wind passing by, no drums, no hit",
+  "gen_dur": 1.2,
+  "influence": 0.85,
+  "file": "audio/sfx/cut-whoosh.mp3",
+  "gain": 0.45,
+  "lead": 0.21,
+  "skip": [
+   "s07b",
+   "s07c"
+  ]
+ },
+ "sfx": [
+  {
+   "id": "morning",
+   "shot": "s02",
+   "at": 0.0,
+   "dur": "to_shot_end",
+   "prompt": "quiet morning ambience inside a small city home, distant birds, soft far traffic, a spoon tapping a ceramic bowl",
+   "gen_dur": 6,
+   "gain": 0.5,
+   "fade_in": 0.5
+  },
+  {
+   "id": "phones",
+   "shot": "s03",
+   "at": 0.0,
+   "dur": 7.4,
+   "prompt": "smartphone emergency alert tone, loud repeating high pitched electronic beeps, several phones together",
+   "influence": 0.75,
+   "gen_dur": 8,
+   "gain": 0.42,
+   "fade_out": 1.0
+  },
+  {
+   "id": "siren1",
+   "shot": "s04",
+   "at": 0.0,
+   "dur": 22,
+   "prompt": "air raid siren wailing over a big city, distant, slow rise and fall, echoing between buildings",
+   "gen_dur": 22,
+   "gain": 0.36,
+   "fade_in": 1.5,
+   "fade_out": 1.5
+  },
+  {
+   "id": "siren2",
+   "shot": "s10",
+   "at": 0.0,
+   "dur": 22,
+   "prompt": "air raid siren wailing over a big city, distant, slow rise and fall, echoing between buildings",
+   "gen_dur": 22,
+   "gain": 0.36,
+   "fade_in": 1.5
+  },
+  {
+   "id": "crowd",
+   "shot": "s06",
+   "at": -0.2,
+   "dur": 15.6,
+   "prompt": "panicked crowd screaming and running on a city street, car horns, people shouting",
+   "gen_dur": 16,
+   "gain": 0.45,
+   "fade_in": 0.4,
+   "fade_out": 1.0
+  },
+  {
+   "id": "packing",
+   "shot": "s07a",
+   "at": 0.0,
+   "dur": 5.0,
+   "prompt": "frantic packing, backpack zipper, plastic water bottles and items thrown into a bag",
+   "gen_dur": 5,
+   "gain": 0.6,
+   "fade_out": 0.3
+  },
+  {
+   "id": "shutter",
+   "shot": "s09",
+   "at": -0.1,
+   "dur": 2.0,
+   "prompt": "old metal roller shutter door yanked open loudly",
+   "gen_dur": 2,
+   "gain": 0.6
+  },
+  {
+   "id": "run",
+   "shot": "s10",
+   "at": 0.0,
+   "dur": "to_shot_end",
+   "prompt": "footsteps of two people running on concrete, fast steps, panting",
+   "influence": 0.75,
+   "gen_dur": 4,
+   "gain": 0.55,
+   "fade_out": 0.3
+  },
+  {
+   "id": "traffic",
+   "shot": "s11",
+   "at": 0.0,
+   "dur": "to_shot_end",
+   "prompt": "massive traffic jam, many car horns honking, engines idling, people yelling",
+   "gen_dur": 5,
+   "gain": 0.42,
+   "fade_out": 0.4
+  },
+  {
+   "id": "heart",
+   "shot": "s14",
+   "at": 0.0,
+   "dur": 5.4,
+   "prompt": "slow heavy heartbeat, close and tense, low thumps",
+   "gen_dur": 6,
+   "gain": 0.75
+  },
+  {
+   "id": "boom",
+   "shot": "s15",
+   "at": 3.2,
+   "dur": 12,
+   "prompt": "huge distant nuclear explosion, deep boom, long rumbling shockwave, glass shattering, debris",
+   "gen_dur": 12,
+   "gain": 0.9
+  },
+  {
+   "id": "ring",
+   "shot": "s15",
+   "at": 3.4,
+   "dur": 6,
+   "prompt": "high pitched ear ringing tinnitus after an explosion, slowly fading",
+   "gen_dur": 6,
+   "gain": 0.22,
+   "fade_out": 2.0
+  },
+  {
+   "id": "wind",
+   "shot": "s15",
+   "at": 3.9,
+   "dur": 32.0,
+   "file": "audio/sfx/wind-loop.mp3",
+   "prompt": "",
+   "gen_dur": 18,
+   "gain": 0.35,
+   "fade_in": 2.0,
+   "fade_out": 0.6
+  },
+  {
+   "id": "sting",
+   "prompt": "deep cinematic end sting, low boom with a long dark reverb tail, then silence",
+   "gen_dur": 5,
+   "file": "audio/sfx/end-sting.mp3",
+   "shot": "s21",
+   "at": -0.05,
+   "dur": "to_shot_end",
+   "gain": 2.2
+  },
+  {
+   "id": "tap",
+   "prompt": "soft user interface button tap, short clean pop click",
+   "gen_dur": 0.6,
+   "influence": 0.8,
+   "shot": "s21",
+   "at": 2.1,
+   "dur": 0.6,
+   "gain": 1.2
+  },
+  {
+   "id": "piano",
+   "shot": "s15",
+   "at": 4.4,
+   "file": "audio/music/aftermath30.mp3",
+   "dur": 29.5,
+   "gain": 0.42,
+   "fade_in": 2.0,
+   "fade_out": 0.6
+  }
+ ],
+ "music": {
+  "prompt": "dark cinematic survival thriller underscore, steady ticking clock pulse, low strings and synth drones building tension, a fragile music box motif, instrumental, no vocals",
+  "length": 60,
+  "file": "audio/music/score.mp3",
+  "at": 0.0,
+  "end_at": {
+   "shot": "s15",
+   "at": 3.2
+  },
+  "fade_out": 0.1,
+  "fade_in": 0.3,
+  "gain": 0.45
+ },
+ "music_extra": [
+  {
+   "prompt": "melancholic sparse piano and low drone, aftermath, quiet and sad, instrumental, no vocals",
+   "length": 18,
+   "file": "audio/music/aftermath.mp3"
+  },
+  {
+   "prompt": "melancholic sparse piano over a low warm drone, aftermath, quiet, sad but with a little hope, slow, instrumental, no vocals",
+   "length": 30,
+   "file": "audio/music/aftermath30.mp3"
+  }
+ ],
+ "countdown": [
+  {
+   "t0": {
+    "shot": "s04",
+    "at": 0.4
+   },
+   "t1": {
+    "shot": "s09",
+    "at": 0.0
+   },
+   "v0": 900,
+   "v1": 660
+  },
+  {
+   "t0": {
+    "shot": "s09",
+    "at": 0.0
+   },
+   "t1": {
+    "shot": "s14",
+    "at": 0.0
+   },
+   "v0": 660,
+   "v1": 10
+  },
+  {
+   "t0": {
+    "shot": "s14",
+    "at": 0.0
+   },
+   "t1": {
+    "shot": "s15",
+    "at": 3.2
+   },
+   "v0": 10,
+   "v1": 0,
+   "hold": 0.6
+  }
+ ],
+ "stamp": {
+  "shot": "s02",
+  "start": 0.3,
+  "end": "shot_end",
+  "text": "วันที่ 0 · 07:42"
+ },
+ "alert": {
+  "shot": "s03",
+  "start": 0.3,
+  "end": "shot_end",
+  "title": "การแจ้งเตือนฉุกเฉิน",
+  "body": "ประกาศภาวะสงคราม · หาที่หลบภัยทันที"
+ },
+ "cards": [
+  {
+   "shot": "s04",
+   "start": 0.3,
+   "end": "shot_end",
+   "text": "ตรวจพบขีปนาวุธ\\Nเวลาถึงโดยประมาณ 15 นาที",
+   "y": 760
+  }
+ ],
+ "lessons": [
+  {
+   "shot": "s21",
+   "start": 0.0,
+   "end": "shot_end",
+   "title": "สรุปบทเรียน · ตอนที่ 1",
+   "y": 250,
+   "items": [
+    {
+     "text": "1. ได้รับเตือน → เข้าอาคารที่ใกล้ที่สุด ชั้นใต้ดิน/กลางอาคาร ห่างหน้าต่าง",
+     "src": "Ready.gov · CDC · WHO",
+     "at": 0.0,
+     "h": 230
+    },
+    {
+     "text": "2. อยู่กลางแจ้งตอนระเบิด → หันหลัง ปิดตา นอนคว่ำ แล้วรีบเข้าอาคาร",
+     "src": "CDC · Ready.gov",
+     "at": 0.0,
+     "h": 230
+    },
+    {
+     "text": "3. อยู่ข้างในอย่างน้อย 24 ชม. ออกเมื่อทางการบอกเท่านั้น",
+     "src": "CDC · Ready.gov · ปส.",
+     "at": 0.0,
+     "h": 200
+    }
+   ],
+   "source": "ในไทย: ปส. สายด่วน 1296 · ปภ. 1784 · แนวทางทั่วไป ทำตามประกาศของทางการเสมอ"
+  },
+  {
+   "shot": "s16",
+   "start": 0.0,
+   "end": {
+    "shot": "s19",
+    "at": 0.0
+   },
+   "title": "ถ้าเจอจริง",
+   "y": 290,
+   "items": [
+    {
+     "text": "1. ได้รับเตือน → เข้าอาคารที่ใกล้ที่สุดทันที ไปชั้นใต้ดินหรือกลางอาคาร ห่างหน้าต่าง",
+     "src": "Ready.gov · CDC · WHO",
+     "at": {
+      "shot": "s16",
+      "at": 1.5
+     },
+     "h": 240
+    },
+    {
+     "text": "2. อยู่กลางแจ้งตอนระเบิด → หันหลัง ปิดตา นอนคว่ำ มือซุกใต้ตัว จนแรงระเบิดผ่าน แล้วรีบเข้าอาคาร",
+     "src": "CDC · Ready.gov",
+     "at": {
+      "shot": "s17",
+      "at": 0.3
+     },
+     "h": 240
+    },
+    {
+     "text": "3. อยู่ข้างในอย่างน้อย 24 ชม. ออกเมื่อทางการบอกเท่านั้น\\Nในไทยติดตามประกาศ ปส. สายด่วน 1296",
+     "src": "CDC · Ready.gov · สำนักงานปรมาณูเพื่อสันติ (ปส.)",
+     "at": {
+      "shot": "s18",
+      "at": 0.3
+     },
+     "h": 280
+    }
+   ],
+   "source": "แนวทางของสหรัฐฯ กรณีระเบิดนิวเคลียร์ · ในไทยให้ทำตามประกาศของทางการเสมอ"
+  }
+ ],
+ "follow": {
+  "shot": "s21",
+  "start": 1.2,
+  "end": "shot_end",
+  "tap": 0.9,
+  "y": 1430
+ },
+ "choice": {
+  "shot": "s19",
+  "start": 0.3,
+  "end": "shot_end",
+  "question": "ถ้าเป็นคุณ… จะไปทางไหน?",
+  "a": "เชื่อชายแก่ · ร้านซ่อมวิทยุ",
+  "b": "ตามฝูงชน · สถานีใต้ดิน",
+  "cta": "คอมเมนต์ A หรือ B · ตอนหน้าไปตามเสียงส่วนใหญ่"
+ },
+ "title": {
+  "shot": "s20",
+  "start": 0.0,
+  "end": "shot_end",
+  "badge": "วันที่ 0",
+  "title": "ไซเรน",
+  "note": "ตอนที่ 1 · (เรื่องแต่ง)"
+ }
+}

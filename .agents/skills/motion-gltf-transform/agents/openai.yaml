@@ -1,0 +1,6 @@
+interface:
+  display_name: "glTF Transform"
+  short_description: "Optimize and verify glTF and GLB video assets"
+  default_prompt: "Use $motion-gltf-transform for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

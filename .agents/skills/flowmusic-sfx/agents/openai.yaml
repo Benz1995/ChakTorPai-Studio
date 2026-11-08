@@ -1,0 +1,6 @@
+interface:
+  display_name: "FlowMusic SFX"
+  short_description: "Generate and import FlowMusic Space effects with real file evidence"
+  default_prompt: "Use $flowmusic-sfx to process the Content Studio sound queue."
+policy:
+  allow_implicit_invocation: true

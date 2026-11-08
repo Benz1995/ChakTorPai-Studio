@@ -1,0 +1,503 @@
+{
+ "id": "day0-ep02",
+ "series": "วันที่ 0",
+ "episode": "ตอนที่ 2 · ใต้ดิน",
+ "content_studio": {
+  "project": "6Q9g7R_TFm",
+  "content": "day0-ep02",
+  "voice": "FfrJDiyJZK"
+ },
+ "look": {
+  "sat": 0.92,
+  "contrast": 1.06,
+  "tint": [
+   30,
+   45,
+   60
+  ],
+  "tint_a": 0.05,
+  "grain": 0.05
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "len": 4.0,
+   "type": "push",
+   "image": "images/eyes-ecu.png",
+   "anchor": [
+    0.5,
+    0.22
+   ],
+   "zoom": [
+    1.04,
+    1.18
+   ],
+   "pulse": [
+    255,
+    30,
+    30
+   ],
+   "pulse_hz": 1.1,
+   "pulse_alpha": 30,
+   "vo": "audio/vo-01.mp3",
+   "th": "ถ้าเสียงระเบิดเพิ่งสงบลง…\\Nแต่มีสิ่งอันตรายลอยอยู่ทั่วฟ้า…\\Nคุณจะกล้าออกไปไหม?",
+   "en": "If the blast just went quiet,\\Nbut an invisible threat hangs in the sky…\\Nwould you step outside?"
+  },
+  {
+   "id": "s02",
+   "len": 4.5,
+   "type": "push",
+   "image": "images/doorway.png",
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.12,
+    1.02
+   ],
+   "transition": "whip",
+   "end_shake": 6,
+   "vo": "audio/vo-02.mp3",
+   "th": "ประตูเหล็กกระแทกปิดสนิท…\\Nผลโหวตพาเราเลี้ยวเข้ามาหลบ\\Nในห้องใต้ดินร้านซ่อมวิทยุของครูเอก",
+   "en": "The heavy iron door slammed shut.\\NThe vote brought us into Kru Ek's shelter."
+  },
+  {
+   "id": "s03",
+   "len": 4.5,
+   "type": "push",
+   "image": "images/basement-radio.png",
+   "zoom": [
+    1.04,
+    1.12
+   ],
+   "pan": 20,
+   "vo": "audio/vo-03.mp3",
+   "th": "กลิ่นสนิมเหล็กกับฝุ่นตลบอบอวล…\\Nครูเอกรีบเอาเทปผ้า\\Nอุดรอยต่อช่องลมอย่างร้อนรน",
+   "en": "Rust and dust filled the air.\\NKru Ek hastily taped every seam in the vent."
+  },
+  {
+   "id": "s04",
+   "len": 4.5,
+   "type": "layers",
+   "bg": "images/basement-radio.png",
+   "chars": [
+    "../characters/kru-ek.png"
+   ],
+   "scale": [
+    0.9
+   ],
+   "pos": [
+    [
+     0.5,
+     0.72
+    ]
+   ],
+   "vo": "audio/vo-04-kru.mp3",
+   "th": "\"ไอ้หนู! รีบไปดึงปลั๊ก\\Nพัดลมระบายอากาศออกเดี๋ยวนี้!\\Nอย่าให้ลมข้างนอกรั่วเข้ามาเด็ดขาด!\"",
+   "en": "\"Kid! Pull the plug on that fan right now!\\NDon't let outside air leak in!\""
+  },
+  {
+   "id": "s05",
+   "len": 4.0,
+   "type": "push",
+   "image": "images/hands.png",
+   "zoom": [
+    1.08,
+    1.02
+   ],
+   "end_shake": 4,
+   "vo": "audio/vo-05.mp3",
+   "th": "พอพัดลมหยุดหมุน…\\Nทั้งห้องก็เหลือเพียงเสียงหายใจหอบ\\Nของเราสามคนกับหมาหนึ่งตัว",
+   "en": "As the blades stopped,\\Nnothing remained but ragged breathing."
+  },
+  {
+   "id": "s06",
+   "len": 4.5,
+   "type": "push",
+   "image": "images/brother-dino.png",
+   "anchor": [
+    0.5,
+    0.45
+   ],
+   "zoom": [
+    1.03,
+    1.12
+   ],
+   "vo": "audio/vo-06-child.mp3",
+   "th": "\"พี่ครับ… แม่จะตามหาเราเจอไหมอ่ะ…\"",
+   "en": "\"Bro… will Mom be able to find us?\""
+  },
+  {
+   "id": "s07",
+   "len": 5.0,
+   "type": "push",
+   "image": "images/basement-radio.png",
+   "anchor": [
+    0.65,
+    0.45
+   ],
+   "zoom": [
+    1.15,
+    1.25
+   ],
+   "pulse": [
+    255,
+    50,
+    50
+   ],
+   "pulse_hz": 2.5,
+   "pulse_alpha": 25,
+   "vo": "audio/vo-07.mp3",
+   "th": "เข็มบนเครื่องวัดรังสีโบราณเริ่มกระดิก…\\Nเสียงคลิกดังถี่ขึ้นเรื่อย ๆ\\Nยืนยันว่าฝุ่นมรณะเริ่มโปรยลงมาบนหลังคา",
+   "en": "The dial needle flickered.\\NFaster clicks confirmed the lethal fallout had begun."
+  },
+  {
+   "id": "s08",
+   "len": 5.5,
+   "type": "layers",
+   "bg": "images/basement-radio.png",
+   "chars": [
+    "../characters/kru-ek.png"
+   ],
+   "scale": [
+    0.9
+   ],
+   "pos": [
+    [
+     0.5,
+     0.72
+    ]
+   ],
+   "vo": "audio/vo-08-kru.mp3",
+   "th": "\"ไม่ว่าข้างบนจะเงียบแค่ไหน…\\Nห้ามใครโผล่หัวออกไปเด็ดขาด\\Nยี่สิบสี่ชั่วโมงนี้คือชี้เป็นชี้ตาย\"",
+   "en": "\"No matter how quiet it gets,\\Ndon't step outside. 24 hours decide life or death.\""
+  },
+  {
+   "id": "s09",
+   "len": 24.9,
+   "type": "push",
+   "image": "images/basement-radio.png",
+   "zoom": [
+    1.02,
+    1.08
+   ],
+   "dim": 0.35
+  },
+  {
+   "id": "s10",
+   "len": 7.5,
+   "type": "push",
+   "image": "images/window-street.png",
+   "zoom": [
+    1.08,
+    1.02
+   ],
+   "dim": 0.25,
+   "vo": "audio/vo-10.mp3",
+   "th": "หลักการนี้ใช้ได้จริงในชีวิตประจำวัน…\\Nทั้งตอนเพลิงไหม้ ควันสารเคมี\\Nหรือวันฝุ่น PM2.5 วิกฤต",
+   "en": "This applies to real life too:\\Nfires, chemical spills, or severe PM2.5 haze."
+  },
+  {
+   "id": "s11",
+   "len": 4.5,
+   "type": "push",
+   "image": "images/doorway.png",
+   "zoom": [
+    1.05,
+    1.15
+   ],
+   "end_shake": 8,
+   "pulse": [
+    255,
+    30,
+    30
+   ],
+   "pulse_hz": 2.0,
+   "pulse_alpha": 35,
+   "vo": "audio/vo-11.mp3",
+   "th": "ความเงียบโรยตัวอยู่ได้ไม่นาน…\\Nจู่ ๆ ประตูเหล็กด้านบน\\Nก็ถูกกระแทกอย่างแรงจนฝุ่นร่วงกราว",
+   "en": "Suddenly, violent pounding\\Nshook the iron hatch above."
+  },
+  {
+   "id": "s12a",
+   "len": 4.8,
+   "type": "layers",
+   "bg": "images/basement-radio.png",
+   "chars": [
+    "../characters/dog.png"
+   ],
+   "scale": [
+    0.65
+   ],
+   "pos": [
+    [
+     0.5,
+     0.78
+    ]
+   ],
+   "vo": "audio/vo-12.mp3",
+   "th": "ข้าวตูลุกขึ้นขู่ฟ่อ…\\Nพร้อมเสียงคนแหบแห้งตะโกนลงมา:",
+   "en": "Khao Tu growled as a voice cried:"
+  },
+  {
+   "id": "s12b",
+   "len": 4.6,
+   "type": "push",
+   "image": "images/doorway.png",
+   "anchor": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.08,
+    1.18
+   ],
+   "end_shake": 6,
+   "transition": "whip",
+   "vo": "audio/vo-12-stranger.mp3",
+   "th": "\"ช่วยด้วย! เปิดให้ผมที!\\Nข้างนอกไม่ไหวแล้ว!\"",
+   "en": "\"Help! Please open up!\\NI can't survive out here!\""
+  },
+  {
+   "id": "s13",
+   "len": 6.0,
+   "type": "reveal",
+   "bg": "images/basement-radio.png",
+   "chars": [
+    "../characters/boy.png",
+    "../characters/brother.png",
+    "../characters/kru-ek.png"
+   ],
+   "blink": {
+    "0": "../characters/boy-blink.png",
+    "1": "../characters/brother-blink.png"
+   },
+   "vo": "audio/vo-13.mp3",
+   "th": "ต้นกล้ามองหน้าคุณด้วยความสงสาร…\\Nแต่ครูเอกส่ายหน้าเด็ดขาด\\Nเพราะการเปิดประตูตอนนี้ จะนำฝุ่นรังสีข้างนอก\\Nทะลักลงมาฆ่าทุกคน",
+   "en": "Ton Kla looked with pity, but Kru Ek shook his head.\\NOpening now lets fallout kill everyone inside."
+  },
+  {
+   "id": "s14",
+   "len": 14.0,
+   "type": "push",
+   "image": "images/doorway.png",
+   "zoom": [
+    1.12,
+    1.02
+   ],
+   "dim": 0.4
+  },
+  {
+   "id": "s15",
+   "len": 8.5,
+   "type": "push",
+   "image": "images/basement-radio.png",
+   "zoom": [
+    1.04,
+    1.04
+   ],
+   "dim": 0.25
+  }
+ ],
+ "vo": [
+  {
+   "file": "audio/vo-09.mp3",
+   "shot": "s09",
+   "at": 0.2
+  },
+  {
+   "file": "audio/vo-14.mp3",
+   "shot": "s14",
+   "at": 0.2
+  },
+  {
+   "file": "audio/vo-15.mp3",
+   "shot": "s15",
+   "at": 0.2
+  }
+ ],
+ "cut_sfx": {
+  "prompt": "air whoosh sound effect, quick swoosh of wind passing by, no drums",
+  "gen_dur": 1.2,
+  "file": "../ep01/audio/sfx/cut-whoosh.mp3",
+  "gain": 0.08,
+  "lead": 0.2
+ },
+ "vo_gain": 1.45,
+ "duck": {
+  "ratio": 4.5,
+  "threshold": 0.08
+ },
+ "music": {
+  "prompt": "dark tense underground thriller",
+  "file": "audio/music/full_score.mp3",
+  "at": 0.0,
+  "gain": 0.2,
+  "fade_in": 0.3
+ },
+ "sfx": [
+  {
+   "id": "doorslam",
+   "shot": "s02",
+   "at": 0.2,
+   "dur": 3.0,
+   "prompt": "heavy steel cellar door slamming shut loudly, massive metallic clang, echoing reverb",
+   "gen_dur": 3.5,
+   "gain": 0.22
+  },
+  {
+   "id": "tape",
+   "shot": "s03",
+   "at": 0.5,
+   "dur": 3.5,
+   "prompt": "duct tape peeling off roll loudly and sticking firmly to metal surface",
+   "gen_dur": 3.5,
+   "gain": 0.12
+  },
+  {
+   "id": "fanstop",
+   "shot": "s05",
+   "at": 0.1,
+   "dur": 3.5,
+   "prompt": "electric exhaust fan slowing down and grinding to a complete halt, hum fading",
+   "gen_dur": 4.0,
+   "gain": 0.14
+  },
+  {
+   "id": "geiger",
+   "shot": "s07",
+   "at": 0.0,
+   "dur": "to_shot_end",
+   "prompt": "geiger counter rapidly clicking, repeating erratic static clicks, radiation detector sound",
+   "gen_dur": 6.0,
+   "gain": 0.14
+  },
+  {
+   "id": "pounding",
+   "shot": "s11",
+   "at": 0.3,
+   "dur": 4.0,
+   "prompt": "violent heavy pounding and banging on an iron trapdoor from outside, frantic fists slamming metal",
+   "gen_dur": 4.5,
+   "gain": 0.25
+  },
+  {
+   "id": "pounding2",
+   "shot": "s12b",
+   "at": 0.1,
+   "dur": 4.0,
+   "file": "../ep01/audio/sfx/cut-whoosh.mp3",
+   "gain": 0.08
+  },
+  {
+   "id": "sting",
+   "shot": "s15",
+   "at": 0.0,
+   "dur": 8.0,
+   "prompt": "deep cinematic end sting, low boom with long dark reverb tail",
+   "gen_dur": 5,
+   "file": "../ep01/audio/sfx/end-sting.mp3",
+   "gain": 0.4
+  },
+  {
+   "id": "tap",
+   "shot": "s15",
+   "at": 2.1,
+   "dur": 0.6,
+   "prompt": "soft user interface button tap",
+   "gen_dur": 0.6,
+   "file": "../ep01/audio/sfx/cut-whoosh.mp3",
+   "gain": 0.2
+  }
+ ],
+ "stamp": {
+  "shot": "s02",
+  "start": 0.3,
+  "end": "shot_end",
+  "text": "วันที่ 0 · 08:15"
+ },
+ "lessons": [
+  {
+   "shot": "s09",
+   "start": 0.0,
+   "end": "shot_end",
+   "title": "ถ้าเจอจริง",
+   "y": 280,
+   "items": [
+    {
+     "text": "1. ปิดประตู หน้าต่าง ดับพัดลมและแอร์ทั้งหมด\\Nไม่ให้ดึงอากาศภายนอกเข้ามา",
+     "src": "Ready.gov · CDC",
+     "at": {
+      "shot": "s09",
+      "at": 1.0
+     },
+     "h": 220
+    },
+    {
+     "text": "2. หลบในจุดที่ลึกที่สุด เช่น ห้องใต้ดิน\\Nหรือใจกลางอาคารที่มีผนังหนาหลายชั้น",
+     "src": "Ready.gov · CDC",
+     "at": {
+      "shot": "s09",
+      "at": 4.5
+     },
+     "h": 220
+    },
+    {
+     "text": "3. กบดานอย่างน้อย 24 ชม. อย่าเพิ่งออกไปตามหาใคร\\Nติดตามประกาศ ปส. สายด่วน 1296",
+     "src": "Ready.gov · CDC · สำนักงานปรมาณูเพื่อสันติ (ปส.)",
+     "at": {
+      "shot": "s09",
+      "at": 8.0
+     },
+     "h": 220
+    }
+   ],
+   "source": "แนวทางของสหรัฐฯ กรณีระเบิดนิวเคลียร์ · ในไทยให้ทำตามประกาศของทางการเสมอ"
+  },
+  {
+   "shot": "s15",
+   "start": 0.0,
+   "end": "shot_end",
+   "title": "สรุปบทเรียน · ตอนที่ 2",
+   "y": 250,
+   "items": [
+    {
+     "text": "1. ซีลห้องทันที: ปิดช่องลม ดับพัดลมและแอร์",
+     "src": "Ready.gov · CDC",
+     "at": 0.0,
+     "h": 200
+    },
+    {
+     "text": "2. หลบจุดลึกที่สุด: ห้องใต้ดินหรือแกนกลางอาคาร",
+     "src": "Ready.gov · CDC",
+     "at": 0.0,
+     "h": 200
+    },
+    {
+     "text": "3. อยู่ข้างในอย่างน้อย 24 ชม. ห้ามเปิดประตูเด็ดขาด",
+     "src": "Ready.gov · CDC · ปส.",
+     "at": 0.0,
+     "h": 200
+    }
+   ],
+   "source": "ในไทย: ปส. สายด่วน 1296 · ปภ. 1784 · แนวทางทั่วไป ทำตามประกาศของทางการเสมอ"
+  }
+ ],
+ "follow": {
+  "shot": "s15",
+  "start": 1.2,
+  "end": "shot_end",
+  "tap": 0.9,
+  "y": 1430
+ },
+ "choice": {
+  "shot": "s14",
+  "start": 0.3,
+  "end": "shot_end",
+  "question": "ถ้าเป็นคุณ… จะตัดสินใจอย่างไร?",
+  "a": "แง้มประตูรับคนบาดเจ็บ",
+  "b": "ปิดตาย 24 ชม. ห้ามเปิดเด็ดขาด",
+  "cta": "คอมเมนต์ A หรือ B · ตอนหน้าดำเนินตามเสียงส่วนใหญ่"
+ }
+}

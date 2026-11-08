@@ -1,0 +1,19 @@
+{
+  "transcript": "ชายแก่แปลกหน้าหรือสถานีใต้ดินที่ทุกคนกำลังวิ่งไป",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.12,
+      "text": "ชายแก่แปลกหน้าหรือสถานีใต้ดินที่ทุกคนกำลังวิ่งไป"
+    }
+  ],
+  "language": "th",
+  "model": "thonburian-whisper-th-large-v3",
+  "device": "cpu",
+  "gpu": null,
+  "computeType": "int8",
+  "batchSize": 0,
+  "droppedNonThaiSegments": 0,
+  "gpuFallback": null,
+  "timingSource": "ASR segments"
+}

@@ -1,0 +1,16 @@
+{
+  "tool": "GL Transitions",
+  "repository": "gl-transitions/gl-transitions",
+  "repository_url": "https://github.com/gl-transitions/gl-transitions",
+  "docs_urls": [
+    "https://github.com/gl-transitions/gl-transitions/blob/master/README.md",
+    "https://github.com/gl-transitions/gl-transitions/blob/master/LICENSE",
+    "https://github.com/gl-transitions/gl-transitions/blob/master/packages/remotion/README.md"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "MIT",
+  "license_note": "Root LICENSE is MIT; README and LICENSE require respecting individual shader headers, including two BSD-licensed transitions. GitHub metadata classified the repository as NOASSERTION.",
+  "package_names": ["gl-transitions", "@gl-transitions/remotion"],
+  "integration_status": "on-demand",
+  "source_notes": "Shader collection includes an official Remotion adapter requiring Remotion >=4.0.500. Studio preview has browser and HTML-in-canvas requirements; transparent regions have documented compositing limits."
+}

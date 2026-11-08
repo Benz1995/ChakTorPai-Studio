@@ -1,0 +1,15 @@
+{
+  "tool": "tsParticles",
+  "repository": "tsparticles/tsparticles",
+  "repository_url": "https://github.com/tsparticles/tsparticles",
+  "docs_urls": [
+    "https://github.com/tsparticles/tsparticles/blob/main/README.md",
+    "https://github.com/tsparticles/tsparticles/blob/main/LICENSE"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "MIT",
+  "license_note": "MIT from upstream LICENSE; external preset media and audio have separate rights.",
+  "package_names": ["@tsparticles/engine", "@tsparticles/slim", "@tsparticles/react"],
+  "integration_status": "on-demand",
+  "source_notes": "Upstream quick start loads engine plus slim and requires registering needed plugins. Live browser playback alone does not establish deterministic arbitrary-frame export."
+}

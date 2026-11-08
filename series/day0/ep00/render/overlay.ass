@@ -1,0 +1,40 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: TH,Kanit,64,&H0000E1FF,&H000000FF,&H00101010,&H96000000,-1,0,0,0,100,100,0,0,1,6,3,2,150,150,480,222
+Style: EN,Kanit,38,&H00FFFFFF,&H000000FF,&H00000000,&HB4000000,0,0,0,0,100,100,0,0,3,10,0,2,150,150,410,1
+Style: ALT,Kanit,54,&H00FFFFFF,&H000000FF,&H00000000,&HD0101018,-1,0,0,0,100,100,0,0,3,26,0,8,80,80,150,222
+Style: CLOCK,Kanit,58,&H003C3CFF,&H000000FF,&H00000000,&HB4000000,-1,0,0,0,100,100,2,0,3,12,0,9,0,70,250,1
+Style: STAMP,Kanit,40,&H00FFFFFF,&H000000FF,&H00000000,&HB4000000,-1,0,0,0,100,100,0,0,3,12,0,7,70,0,250,222
+Style: DIM,Kanit,20,&H00000000,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,7,0,0,0,1
+Style: Q,Kanit,60,&H00FFFFFF,&H000000FF,&H00101010,&H96000000,-1,0,0,0,100,100,0,0,1,6,3,5,120,120,0,222
+Style: CH,Kanit,50,&H00FFFFFF,&H000000FF,&H001E1ED6,&HB4000000,-1,0,0,0,100,100,0,0,3,24,0,5,0,0,0,222
+Style: LHEAD,Kanit,62,&H00101010,&H000000FF,&H0000D7FF,&H0000D7FF,-1,0,0,0,100,100,0,0,3,18,0,7,110,110,0,222
+Style: LITEM,Kanit,46,&H00FFFFFF,&H000000FF,&H00101010,&H96000000,-1,0,0,0,100,100,0,0,1,4,2,7,110,150,0,222
+Style: LSRC,Kanit,28,&H00B4B4B4,&H000000FF,&H00101010,&H00000000,0,0,0,0,100,100,0,0,1,2,0,7,110,150,0,222
+Style: FOLLOW,Kanit,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,0,0,5,0,0,0,222
+Style: BADGE,Kanit,70,&H00FFFFFF,&H000000FF,&H001E1ED6,&H001E1ED6,-1,0,0,0,100,100,0,0,3,18,0,5,60,60,0,222
+Style: TITLE,Kanit,150,&H00FFFFFF,&H000000FF,&H00101010,&H96000000,-1,0,0,0,100,100,0,0,1,8,4,5,60,60,0,222
+Style: SMALL,Kanit,34,&H00C8C8C8,&H000000FF,&H00101010,&H00000000,0,0,0,0,100,100,0,0,1,3,0,5,60,60,0,222
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.30,0:00:07.80,TH,,0,0,544,,{\fad(120,120)}เช้าวันธรรมดาที่ดูเหมือนไม่มีอะไร…\Nจู่ ๆ มือถือทุกเครื่องในเมือง\Nแผดเสียงเตือนดังลั่นขึ้นมาพร้อมกัน
+Dialogue: 1,0:00:00.30,0:00:07.80,EN,,0,0,410,,{\fad(120,120)}On an ordinary morning with nothing unusual—until every\Nphone in the city shrieked at once.
+Dialogue: 2,0:00:08.20,0:00:13.80,TH,,0,0,494,,{\fad(120,120)}บนหน้าจอมีเพียงข้อความสีแดงเตือนซ้ำ ๆ…\N"สงครามเริ่มต้นขึ้นแล้ว"
+Dialogue: 1,0:00:08.20,0:00:13.80,EN,,0,0,410,,{\fad(120,120)}Only red text repeated on the screen: "The war has begun."
+Dialogue: 2,0:00:14.20,0:00:17.80,TH,,0,0,494,,{\fad(120,120)}คุณกำมือน้องไว้แน่น…\Nแล้วพาวิ่งหนีสุดชีวิต!
+Dialogue: 1,0:00:14.20,0:00:17.80,EN,,0,0,410,,{\fad(120,120)}You grip your brother's hand tight… and sprint for your lives!
+Dialogue: 2,0:00:18.20,0:00:25.50,TH,,0,0,494,,{\fad(120,120)}และวินาทีนั้น…\Nท้องฟ้าทั้งผืน ก็สว่างวาบจนขาวโพลน
+Dialogue: 1,0:00:18.20,0:00:25.50,EN,,0,0,410,,{\fad(120,120)}And in that second… the whole sky burned blinding white.
+Dialogue: 3,0:00:00.50,0:00:07.80,ALT,,0,0,0,,{\an8\fad(150,200)\move(540,-200,540,250,0,280)}{\c&H4848FF&}⚠  การแจ้งเตือนฉุกเฉิน\N{\c&HFFFFFF&\fs40\b0}ประกาศภาวะสงคราม · หาที่หลบภัยทันที
+Dialogue: 3,0:00:25.80,0:00:28.00,DIM,,0,0,0,,{\an7\pos(0,0)\1c&H000000&\1a&H70&\fad(300,200)\p1}m 0 0 l 1080 0 1080 1920 0 1920{\p0}
+Dialogue: 4,0:00:25.80,0:00:28.00,BADGE,,0,0,0,,{\pos(540,800)\fad(200,0)\t(0,180,\fscx112\fscy112)\t(180,320,\fscx100\fscy100)}วันที่ 0
+Dialogue: 4,0:00:26.05,0:00:28.00,TITLE,,0,0,0,,{\pos(540,960)\fad(250,0)}ไซเรน
+Dialogue: 4,0:00:26.30,0:00:28.00,SMALL,,0,0,0,,{\pos(540,1090)\fad(250,0)}(เรื่องแต่ง)

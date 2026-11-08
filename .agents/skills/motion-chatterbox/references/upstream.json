@@ -1,0 +1,15 @@
+{
+  "tool": "Chatterbox",
+  "repository": "resemble-ai/chatterbox",
+  "repository_url": "https://github.com/resemble-ai/chatterbox",
+  "docs_urls": [
+    "https://github.com/resemble-ai/chatterbox/blob/master/README.md",
+    "https://github.com/resemble-ai/chatterbox/blob/master/LICENSE"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "MIT",
+  "license_note": "Repository source uses MIT; check the selected checkpoint/model card and reference-voice permission for the actual run.",
+  "package_names": ["chatterbox-tts"],
+  "integration_status": "on-demand",
+  "source_notes": "README lists English variants and multilingual V3. The listed 23 multilingual language IDs exclude Thai. Existing F5-TTS-THAI should remain the project's Thai path. README also describes generated-audio watermarking."
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "FFmpeg"
+  short_description: "Inspect encode and verify final media delivery"
+  default_prompt: "Use $motion-ffmpeg for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

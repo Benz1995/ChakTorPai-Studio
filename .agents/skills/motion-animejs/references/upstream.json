@@ -1,0 +1,18 @@
+{
+  "tool": "Anime.js",
+  "repository": "juliangarnier/anime",
+  "repository_url": "https://github.com/juliangarnier/anime",
+  "docs_urls": [
+    "https://github.com/juliangarnier/anime/blob/master/README.md",
+    "https://github.com/juliangarnier/anime/blob/master/LICENSE.md",
+    "https://animejs.com/documentation/timeline/timeline-methods/seek/"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "MIT",
+  "license_note": "MIT in the checked LICENSE.md; preserve required notices when distributing library code.",
+  "package_names": [
+    "animejs"
+  ],
+  "integration_status": "on-demand",
+  "source_notes": "Current README documents v4 ES modules for CSS, SVG, DOM attributes and JavaScript objects. Official timeline.seek accepts time in milliseconds and an optional callback-muting flag."
+}

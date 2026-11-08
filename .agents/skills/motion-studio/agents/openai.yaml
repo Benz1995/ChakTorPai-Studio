@@ -1,0 +1,6 @@
+interface:
+  display_name: "Motion Studio"
+  short_description: "Create content with twenty focused production skills"
+  default_prompt: "Use $motion-studio for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

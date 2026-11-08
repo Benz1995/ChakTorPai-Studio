@@ -1,0 +1,16 @@
+{
+  "tool": "Tone.js",
+  "repository": "Tonejs/Tone.js",
+  "repository_url": "https://github.com/Tonejs/Tone.js",
+  "docs_urls": [
+    "https://github.com/Tonejs/Tone.js/blob/dev/README.md",
+    "https://github.com/Tonejs/Tone.js/blob/dev/Tone/core/context/Offline.ts",
+    "https://github.com/Tonejs/Tone.js/blob/dev/LICENSE.md"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "MIT",
+  "license_note": "Tone.js source uses MIT; third-party samples require their own asset provenance.",
+  "package_names": ["tone"],
+  "integration_status": "on-demand",
+  "source_notes": "Browser Web Audio synthesis/scheduling framework. Source implements Tone.Offline with an OfflineContext and a rendered audio-buffer promise. Final video should consume an exported asset rather than live browser audio."
+}

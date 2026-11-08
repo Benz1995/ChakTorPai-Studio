@@ -1,0 +1,6 @@
+interface:
+  display_name: "faster-whisper"
+  short_description: "Transcribe audio and propose caption timing"
+  default_prompt: "Use $motion-faster-whisper for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,19 @@
+{
+  "transcript": "แล้วท้องฟ้าก็สว่างจ้า",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.28,
+      "text": "แล้วท้องฟ้าก็สว่างจ้า"
+    }
+  ],
+  "language": "th",
+  "model": "thonburian-whisper-th-large-v3",
+  "device": "cpu",
+  "gpu": null,
+  "computeType": "int8",
+  "batchSize": 0,
+  "droppedNonThaiSegments": 0,
+  "gpuFallback": null,
+  "timingSource": "ASR segments"
+}

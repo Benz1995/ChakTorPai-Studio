@@ -1,0 +1,15 @@
+{
+  "tool": "FFmpeg",
+  "repository": "FFmpeg/FFmpeg",
+  "repository_url": "https://github.com/FFmpeg/FFmpeg",
+  "docs_urls": [
+    "https://github.com/FFmpeg/FFmpeg/blob/master/README.md",
+    "https://github.com/FFmpeg/FFmpeg/blob/master/LICENSE.md"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "NOASSERTION",
+  "license_note": "GitHub metadata reports NOASSERTION. Upstream LICENSE.md states mainly LGPL-2.1-or-later; optional GPL components, version3 and external-library build options change the resulting binary's terms.",
+  "package_names": ["ffmpeg", "ffprobe"],
+  "integration_status": "existing",
+  "source_notes": "Existing server/media.ts invokes FFmpeg/ffprobe for audio conversion and probing; Remotion handles composition rendering. GitHub is a mirror of the upstream FFmpeg project. Actual encoder/filter support and license follow the installed binary build."
+}

@@ -1,0 +1,167 @@
+{
+ "id": "day0-ep00-opening",
+ "series": "วันที่ 0",
+ "episode": "ไซเรน (เปิดเรื่อง)",
+ "length": 18.0,
+ "content_studio": {
+  "project": "6Q9g7R_TFm",
+  "content": "6_FyU76Uha",
+  "voice": "FfrJDiyJZK"
+ },
+ "shots": [
+  {
+   "id": "s1",
+   "start": 0.0,
+   "end": 4.8,
+   "type": "push",
+   "image": "images/s1-phone.png",
+   "anchor": [
+    0.5,
+    0.42
+   ],
+   "zoom": [
+    1.04,
+    1.12
+   ],
+   "buzz": true,
+   "pulse": [
+    255,
+    20,
+    20
+   ],
+   "pulse_hz": 2.2,
+   "pulse_alpha": 40
+  },
+  {
+   "id": "s2",
+   "start": 4.8,
+   "end": 8.6,
+   "type": "push",
+   "image": "images/s2-street.png",
+   "zoom": [
+    1.06,
+    1.13
+   ],
+   "pan": -30,
+   "pulse": [
+    255,
+    30,
+    30
+   ],
+   "pulse_hz": 1.6,
+   "pulse_alpha": 22,
+   "end_shake": 6
+  },
+  {
+   "id": "s3",
+   "start": 8.6,
+   "end": 11.6,
+   "type": "run",
+   "plate": "images/s3-plate.png",
+   "poses": [
+    "images/s3-run-a.png",
+    "images/s3-run-b.png"
+   ],
+   "scale": [
+    0.84,
+    0.94
+   ]
+  },
+  {
+   "id": "s4",
+   "start": 11.6,
+   "end": 18.0,
+   "type": "reveal",
+   "bg": "images/s3-plate.png",
+   "chars": [
+    "../characters/boy.png",
+    "../characters/brother.png",
+    "../characters/dog.png"
+   ],
+   "tremble": [
+    1
+   ],
+   "cloud": "../characters/cloud-lowpoly.png",
+   "cloud_base": [
+    700,
+    560
+   ],
+   "cloud_width": 600,
+   "flash_at": 3.0
+  }
+ ],
+ "vo": [
+  {
+   "file": "audio/vo-01.mp3",
+   "at": 0.3
+  },
+  {
+   "file": "audio/vo-02.mp3",
+   "at": 5.0
+  },
+  {
+   "file": "audio/vo-03.mp3",
+   "at": 8.75
+  },
+  {
+   "file": "audio/vo-04.mp3",
+   "at": 11.75
+  }
+ ],
+ "sound": {
+  "drone": true,
+  "phones": [
+   0.2,
+   4.6
+  ],
+  "siren": 2.6,
+  "run": [
+   8.6,
+   11.6
+  ],
+  "heart": [
+   11.7,
+   14.4
+  ],
+  "flash": 14.6
+ },
+ "subs": [
+  {
+   "start": 0.3,
+   "end": 4.75,
+   "th": "เช้าวันนั้น… มือถือทุกเครื่องในเมือง\\Nดังขึ้นพร้อมกัน",
+   "en": "That morning, every phone in the city went off at once."
+  },
+  {
+   "start": 5.0,
+   "end": 8.5,
+   "th": "ข้อความเดียวบนจอ…\\N\"สงครามเริ่มแล้ว\"",
+   "en": "One message on the screen: \"The war has begun.\""
+  },
+  {
+   "start": 8.75,
+   "end": 11.5,
+   "th": "คุณคว้ามือน้อง… แล้ววิ่ง",
+   "en": "You grab your brother's hand… and run."
+  },
+  {
+   "start": 11.75,
+   "end": 14.9,
+   "th": "แล้วท้องฟ้า… ก็สว่างจ้า",
+   "en": "Then the sky burned white."
+  }
+ ],
+ "alert": {
+  "start": 0.5,
+  "end": 4.75,
+  "title": "การแจ้งเตือนฉุกเฉิน",
+  "body": "ประกาศภาวะสงคราม · หาที่หลบภัยทันที"
+ },
+ "title": {
+  "start": 16.0,
+  "end": 18.0,
+  "badge": "วันที่ 0",
+  "title": "ไซเรน",
+  "note": "(เรื่องแต่ง)"
+ }
+}

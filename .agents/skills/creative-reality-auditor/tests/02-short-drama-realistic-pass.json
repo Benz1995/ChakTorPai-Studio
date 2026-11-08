@@ -1,0 +1,23 @@
+{
+  "test_id": "TEST-02",
+  "name": "Realistic short drama that passes inspection",
+  "work_type": "short-drama",
+  "world_mode": "realistic",
+  "title": "สายใยคืนฝนตก",
+  "content": "ฉาก 1: ฝนตกหนักที่ป้ายรถเมล์ ปกรณ์เห็นเด็กหญิงตัวเปียกโชกยืนสั่น จึงถอดเสื้อแจ็กเก็ตยื่นให้\nฉาก 2: เด็กหญิงไม่ยอมรับเพราะระแวง ปกรณ์จึงวางเสื้อไว้บนม้านั่งแล้วถอยออกไปยืนตากฝนห่างออกไป 3 เมตร เพื่อให้เด็กรู้สึกปลอดภัย\nฉาก 3: แม่ของเด็กวิ่งกางร่มมาถึงด้วยความกระวนกระวาย ขอบคุณปกรณ์ ปกรณ์ยิ้มและขึ้นรถเมล์สายที่เพิ่งมาถึง",
+  "evaluation": {
+    "scores": {
+      "story_logic": 9.2,
+      "emotion_and_character": 9.5,
+      "reality_and_feasibility": 9.0,
+      "narrative_pacing": 8.8,
+      "visual_continuity": 8.5
+    },
+    "issues": []
+  },
+  "expected": {
+    "verdict": "PASS",
+    "has_critical_fail": false,
+    "passed": true
+  }
+}

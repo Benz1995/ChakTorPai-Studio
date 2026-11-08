@@ -1,0 +1,430 @@
+{
+ "id": "day0-ep03",
+ "series": "วันที่ 0",
+ "episode": "ตอนที่ 3 · เคาะ",
+ "content_studio": {
+  "project": "6Q9g7R_TFm",
+  "content": "day0-ep03",
+  "voice": "FfrJDiyJZK"
+ },
+ "look": {
+  "sat": 0.92,
+  "contrast": 1.06,
+  "tint": [
+   30,
+   45,
+   60
+  ],
+  "tint_a": 0.05,
+  "grain": 0.05
+ },
+ "shots": [
+  {
+   "id": "s01",
+   "len": 10.8,
+   "type": "push",
+   "image": "images/eyes-ecu.png",
+   "anchor": [
+    0.5,
+    0.22
+   ],
+   "zoom": [
+    1.04,
+    1.18
+   ],
+   "pulse": [
+    255,
+    30,
+    30
+   ],
+   "pulse_hz": 1.1,
+   "pulse_alpha": 30,
+   "vo": "audio/vo-01.mp3",
+   "th": "ถ้าหลังระเบิดผ่านไป 24 ชั่วโมง…\\Nมีคนคุ้นเคยที่เปื้อนฝุ่นมรณะทั้งตัว\\Nมาเคาะขอความช่วยเหลือ…\\Nคุณจะช่วยเขาอย่างไรไม่ให้ตายไปด้วยกัน?",
+   "en": "After 24 hours… if someone coated in fallout knocks… how would you help without killing everyone inside?"
+  },
+  {
+   "id": "s02",
+   "len": 6.8,
+   "type": "push",
+   "image": "images/bunker-hatch-locked.png",
+   "anchor": [
+    0.5,
+    0.5
+   ],
+   "zoom": [
+    1.05,
+    1.12
+   ],
+   "transition": "whip",
+   "end_shake": 4,
+   "vo": "audio/vo-02.mp3",
+   "th": "ผลโหวตตัดสินให้เรากัดฟันปิดตาย…\\Nรอจนครบเวลายี่สิบสี่ชั่วโมง\\Nตามกฎความปลอดภัย",
+   "en": "The vote chose to keep it locked… waiting out the full 24 hours."
+  },
+  {
+   "id": "s03",
+   "len": 7.2,
+   "type": "push",
+   "image": "images/basement-radio.png",
+   "zoom": [
+    1.04,
+    1.12
+   ],
+   "pan": 20,
+   "vo": "audio/vo-03.mp3",
+   "th": "เช้าวันที่หนึ่ง… เสียงเคาะประตูด้านบนกลับมาอีกครั้ง\\Nคราวนี้เป็นเสียงไอแหบแห้งที่คุ้นหู",
+   "en": "Day 1 morning… weak, ragged coughing pounded above."
+  },
+  {
+   "id": "s04",
+   "len": 6.56,
+   "type": "push",
+   "image": "images/bunker-hatch-locked.png",
+   "anchor": [
+    0.5,
+    0.4
+   ],
+   "zoom": [
+    1.08,
+    1.2
+   ],
+   "end_shake": 8,
+   "transition": "whip",
+   "vo": "audio/vo-04.mp3",
+   "th": "\"ครูเอกครับ… น้าสมศักดิ์เอง…\\Nเปิดให้ผมที… ข้างนอกหายใจไม่ออกแล้ว…\"",
+   "en": "\"Kru Ek… it's Somsak from the shop… please open up… I can't breathe out here…\""
+  },
+  {
+   "id": "s05",
+   "len": 9.84,
+   "type": "push",
+   "image": "images/neighbour-door.png",
+   "zoom": [
+    1.02,
+    1.1
+   ],
+   "pan": -15,
+   "vo": "audio/vo-05.mp3",
+   "th": "ครูเอกสวมถุงมือยาง ค่อย ๆ ปลดสลักแง้มดู…\\Nภาพตรงหน้าคือน้าสมศักดิ์ร้านชำฝั่งตรงข้าม\\Nทั้งตัวขาวโพลนไปด้วยฝุ่นเถ้า",
+   "en": "Kru Ek cracked the hatch… outside stood Uncle Somsak, coated head to toe in toxic ash."
+  },
+  {
+   "id": "s06",
+   "len": 6.16,
+   "type": "push",
+   "image": "images/neighbour-dusty.png",
+   "zoom": [
+    1.04,
+    1.14
+   ],
+   "end_shake": 4,
+   "vo": "audio/vo-06.mp3",
+   "th": "ต้นกล้ารีบคว้าขวดเจลแอลกอฮอล์กับทิชชู่เปียก\\Nจะไปเช็ดตัวให้น้า…\\Nแต่ครูเอกตะโกนห้ามลั่น!",
+   "en": "Ton Kla rushed with alcohol gel and wipes, but Kru Ek shouted stop!"
+  },
+  {
+   "id": "s07",
+   "len": 8.48,
+   "type": "layers",
+   "bg": "images/basement-radio.png",
+   "chars": [
+    "../characters/kru-ek.png"
+   ],
+   "scale": [
+    0.9
+   ],
+   "pos": [
+    [
+     0.5,
+     0.72
+    ]
+   ],
+   "vo": "audio/vo-07.mp3",
+   "th": "\"อย่านะไอ้หนู! ห้ามใช้เจลแอลกอฮอล์\\Nหรือทิชชู่เปียกเด็ดขาด!\\Nมันยิ่งละลายสารเคมีให้ซึมลึกเข้าผิวหนัง!\"",
+   "en": "\"Kid! Never use hand sanitizer or wet wipes! They dissolve chemicals straight into your skin!\""
+  },
+  {
+   "id": "s08",
+   "len": 9.2,
+   "type": "push",
+   "image": "images/bag-clothes.png",
+   "zoom": [
+    1.03,
+    1.1
+   ],
+   "pan": 15,
+   "vo": "audio/vo-08.mp3",
+   "th": "ขั้นตอนแรก รีบถอดเสื้อผ้าชั้นนอกออกให้หมด\\Nมัดใส่ถุงดำแยกไว้…\\Nแค่นี้ก็กำจัดสารปนเปื้อนไปได้ถึง 90%",
+   "en": "Strip outer clothes and seal in a bag: this removes up to 90% of radioactive dust."
+  },
+  {
+   "id": "s09",
+   "len": 8.4,
+   "type": "push",
+   "image": "images/wash-soap.png",
+   "zoom": [
+    1.03,
+    1.12
+   ],
+   "pan": -15,
+   "vo": "audio/vo-09.mp3",
+   "th": "จากนั้นใช้น้ำกับสบู่ล้างตัวเบา ๆ\\Nห้ามขัดถูรุนแรงเด็ดขาด\\Nรอยถลอกจะเปิดทางให้สารกัมมันตรังสีซึมเข้าเลือด",
+   "en": "Wash gently with soap and water; never scrub hard, as skin breaks absorb toxins into blood."
+  },
+  {
+   "id": "s10",
+   "len": 22.0,
+   "type": "push",
+   "image": "images/basement-radio.png",
+   "zoom": [
+    1.02,
+    1.08
+   ],
+   "dim": 0.35
+  },
+  {
+   "id": "s11",
+   "len": 7.52,
+   "type": "push",
+   "image": "images/water-tank-radio.png",
+   "zoom": [
+    1.04,
+    1.12
+   ],
+   "pan": 20,
+   "vo": "audio/vo-11.mp3",
+   "th": "น้าสมศักดิ์ปลอดภัย…\\Nแต่น้ำสะอาดในถังยี่สิบลิตรที่ใช้ล้างตัว\\Nตอนนี้เหลือไม่ถึงครึ่งถังแล้ว",
+   "en": "Uncle Somsak was safe, but the emergency water jug was now more than half drained."
+  },
+  {
+   "id": "s12",
+   "len": 9.36,
+   "type": "push",
+   "image": "images/alert-water-phone.png",
+   "zoom": [
+    1.03,
+    1.12
+   ],
+   "pulse": [
+    255,
+    30,
+    30
+   ],
+   "pulse_hz": 1.5,
+   "pulse_alpha": 25,
+   "vo": "audio/vo-12.mp3",
+   "th": "พร้อมข้อความแจ้งเตือนด่วนบนมือถือ:\\Nระบบน้ำประปาปนเปื้อนรังสี…\\Nทางการสั่งห้ามบริโภคน้ำประปาทุกกรณี!",
+   "en": "A phone alert flashed: 'Municipal water contaminated. Do not consume tap water!'"
+  },
+  {
+   "id": "s13",
+   "len": 14.0,
+   "type": "push",
+   "image": "images/bunker-hatch-locked.png",
+   "zoom": [
+    1.05,
+    1.1
+   ],
+   "dim": 0.45
+  },
+  {
+   "id": "s14",
+   "len": 8.0,
+   "type": "push",
+   "image": "images/basement-radio.png",
+   "zoom": [
+    1.04,
+    1.04
+   ],
+   "dim": 0.25
+  }
+ ],
+ "vo": [
+  {
+   "file": "audio/vo-10.mp3",
+   "shot": "s10",
+   "at": 0.2
+  },
+  {
+   "file": "audio/vo-13.mp3",
+   "shot": "s13",
+   "at": 0.2
+  }
+ ],
+ "cut_sfx": {
+  "prompt": "air whoosh sound effect, quick swoosh of wind passing by, no drums",
+  "gen_dur": 1.2,
+  "file": "../ep01/audio/sfx/cut-whoosh.mp3",
+  "gain": 0.08,
+  "lead": 0.2
+ },
+ "vo_gain": 1.45,
+ "duck": {
+  "ratio": 4.5,
+  "threshold": 0.08
+ },
+ "music": {
+  "prompt": "dark tense underground thriller",
+  "file": "audio/music/full_score.mp3",
+  "at": 0.0,
+  "gain": 0.2,
+  "fade_in": 0.3
+ },
+ "sfx": [
+  {
+   "id": "pounding",
+   "shot": "s03",
+   "at": 0.5,
+   "dur": 4.0,
+   "prompt": "violent heavy pounding and banging on an iron trapdoor from outside, frantic fists slamming metal",
+   "gen_dur": 4.5,
+   "gain": 0.22
+  },
+  {
+   "id": "creak",
+   "shot": "s05",
+   "at": 0.2,
+   "dur": 3.0,
+   "prompt": "heavy rusty iron hatch creaking open slowly",
+   "gen_dur": 3.0,
+   "file": "../ep01/audio/sfx/cut-whoosh.mp3",
+   "gain": 0.16
+  },
+  {
+   "id": "bagrustle",
+   "shot": "s08",
+   "at": 0.3,
+   "dur": 4.0,
+   "prompt": "crinkling plastic garbage bag rustle and clothes stuffing sound",
+   "gen_dur": 4.0,
+   "file": "../ep01/audio/sfx/cut-whoosh.mp3",
+   "gain": 0.14
+  },
+  {
+   "id": "waterwash",
+   "shot": "s09",
+   "at": 0.2,
+   "dur": 5.0,
+   "prompt": "water trickling gently and hands lathering soap in metal basin",
+   "gen_dur": 5.0,
+   "file": "../ep01/audio/sfx/cut-whoosh.mp3",
+   "gain": 0.15
+  },
+  {
+   "id": "phonebeep",
+   "shot": "s12",
+   "at": 0.1,
+   "dur": 3.0,
+   "prompt": "emergency cell broadcast warning alert beep",
+   "gen_dur": 3.0,
+   "file": "../ep01/audio/sfx/cut-whoosh.mp3",
+   "gain": 0.18
+  },
+  {
+   "id": "sting",
+   "shot": "s14",
+   "at": 0.0,
+   "dur": 8.0,
+   "file": "../ep01/audio/sfx/end-sting.mp3",
+   "gain": 0.4
+  },
+  {
+   "id": "tap",
+   "shot": "s14",
+   "at": 2.1,
+   "dur": 0.6,
+   "file": "../ep01/audio/sfx/cut-whoosh.mp3",
+   "gain": 0.2
+  }
+ ],
+ "stamp": {
+  "shot": "s02",
+  "start": 0.3,
+  "end": "shot_end",
+  "text": "วันที่ 1 · 07:30"
+ },
+ "lessons": [
+  {
+   "shot": "s10",
+   "start": 0.0,
+   "end": "shot_end",
+   "title": "ถ้าเปื้อนฝุ่นมรณะ (การชำระล้างปนเปื้อน)",
+   "y": 280,
+   "items": [
+    {
+     "text": "1. ถอดเสื้อผ้าชั้นนอกใส่ถุงดำ มัดปากถุงให้แน่น\\N(กำจัดสารปนเปื้อนไปได้ถึง 90%)",
+     "src": "Ready.gov · CDC",
+     "at": {
+      "shot": "s10",
+      "at": 1.0
+     },
+     "h": 220
+    },
+    {
+     "text": "2. ล้างตัวด้วยน้ำและสบู่อย่างเบามือ สระผม ล้างหน้า\\Nแต่ห้ามขัดถูผิวหนังเด็ดขาด (รอยถลอกจะทำให้สารพิษเข้าเลือด)",
+     "src": "Ready.gov · CDC · ปส.",
+     "at": {
+      "shot": "s10",
+      "at": 6.8
+     },
+     "h": 220
+    },
+    {
+     "text": "3. ปิดแผลให้สนิทก่อนล้างตัว\\Nและห้ามใช้เจลแอลกอฮอล์หรือทิชชู่เปียกเด็ดขาด",
+     "src": "Ready.gov · CDC",
+     "at": {
+      "shot": "s10",
+      "at": 13.5
+     },
+     "h": 220
+    }
+   ],
+   "source": "แนวทางของ CDC / Ready.gov กรณีฝุ่นกัมมันตรังสี · สำนักงานปรมาณูเพื่อสันติ (ปส.) 1296"
+  },
+  {
+   "shot": "s14",
+   "start": 0.0,
+   "end": "shot_end",
+   "title": "สรุปบทเรียน · ตอนที่ 3",
+   "y": 250,
+   "items": [
+    {
+     "text": "1. ถอดเสื้อผ้าชั้นนอกใส่ถุงดำ ลดฝุ่นพิษได้ทันที 90%",
+     "src": "Ready.gov · CDC",
+     "at": 0.0,
+     "h": 200
+    },
+    {
+     "text": "2. ล้างตัวด้วยน้ำสบู่เบา ๆ ห้ามขัดถูรุนแรงเด็ดขาด",
+     "src": "Ready.gov · CDC",
+     "at": 0.0,
+     "h": 200
+    },
+    {
+     "text": "3. ห้ามใช้เจลแอลกอฮอล์/ทิชชู่เปียกล้างสารรังสี",
+     "src": "Ready.gov · CDC · ปส.",
+     "at": 0.0,
+     "h": 200
+    }
+   ],
+   "source": "ในไทย: ปส. สายด่วน 1296 · ปภ. 1784 · แนวทางทั่วไป ทำตามประกาศของทางการเสมอ"
+  }
+ ],
+ "follow": {
+  "shot": "s14",
+  "start": 1.2,
+  "end": "shot_end",
+  "tap": 0.9,
+  "y": 1430
+ },
+ "choice": {
+  "shot": "s13",
+  "start": 0.3,
+  "end": "shot_end",
+  "question": "น้ำสะอาดเหลือไม่ถึงครึ่งถัง… คุณจะเลือกทางไหน?",
+  "a": "A. เสี่ยงออกไปหาเสบียงและน้ำเพิ่มบนผิวดิน",
+  "b": "B. กักตัวต่อในห้องใต้ดินและจำกัดน้ำดื่ม",
+  "cta": "คอมเมนต์ A หรือ B · ตอนหน้าดำเนินตามเสียงส่วนใหญ่!"
+ }
+}

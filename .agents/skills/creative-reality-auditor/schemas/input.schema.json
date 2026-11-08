@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CreativeRealityAuditorInput",
+  "description": "Input schema for Creative Reality Auditor (CRA)",
+  "type": "object",
+  "required": ["work_type", "title", "content"],
+  "properties": {
+    "work_type": {
+      "type": "string",
+      "enum": ["content", "music", "cartoon", "short-drama", "storytelling"],
+      "description": "Category of creative work to audit"
+    },
+    "world_mode": {
+      "type": "string",
+      "enum": ["realistic", "stylized", "fantasy", "sci-fi", "absurd-comedy"],
+      "default": "realistic",
+      "description": "World-building logic framework for physics and feasibility evaluation"
+    },
+    "title": {
+      "type": "string",
+      "description": "Title or project name of the creative submission"
+    },
+    "format": {
+      "type": "string",
+      "enum": ["plain-text", "markdown", "screenplay", "lyrics", "storyboard", "json"],
+      "default": "markdown",
+      "description": "Format of the content"
+    },
+    "content": {
+      "type": "string",
+      "description": "The creative text, script, screenplay, lyrics, or prompt to audit"
+    },
+    "bibles": {
+      "type": "object",
+      "properties": {
+        "story_bible": { "type": "string", "description": "Overarching plot, lore, and timeline rules" },
+        "character_bible": { "type": "string", "description": "Profiles, personality, relationships, and appearance rules" },
+        "world_rules": { "type": "string", "description": "Explicit physical, magical, or technological rules of this world" }
+      },
+      "additionalProperties": true
+    },
+    "media_assets": {
+      "type": "array",
+      "description": "List of actual visual or audio files attached for inspection",
+      "items": {
+        "type": "object",
+        "required": ["asset_id", "type", "path"],
+        "properties": {
+          "asset_id": { "type": "string" },
+          "type": { "type": "string", "enum": ["image", "audio", "video", "storyboard_panel"] },
+          "path": { "type": "string" },
+          "shot_id": { "type": "string" },
+          "character_id": { "type": "string" },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "judges_requested": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "reality-judge",
+          "physics-judge",
+          "story-logic-judge",
+          "emotion-judge",
+          "music-judge",
+          "visual-judge",
+          "audience-judge",
+          "devils-advocate"
+        ]
+      },
+      "description": "Specific subset of judges to run; if omitted, automatically selected by profile"
+    },
+    "weights_override": {
+      "type": "object",
+      "description": "Optional custom criterion weight overrides (must sum to 100%)",
+      "additionalProperties": { "type": "number", "minimum": 0, "maximum": 100 }
+    },
+    "execution_mode": {
+      "type": "string",
+      "enum": ["multi-agent-debate", "sequential", "quick-check"],
+      "default": "multi-agent-debate"
+    },
+    "output_mode": {
+      "type": "string",
+      "enum": ["review-only", "suggest-fixes", "generate-revised-draft", "compare-before-after"],
+      "default": "suggest-fixes"
+    }
+  }
+}

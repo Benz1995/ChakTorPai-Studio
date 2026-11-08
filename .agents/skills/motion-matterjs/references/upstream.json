@@ -1,0 +1,17 @@
+{
+  "tool": "Matter.js",
+  "repository": "liabru/matter-js",
+  "repository_url": "https://github.com/liabru/matter-js",
+  "docs_urls": [
+    "https://github.com/liabru/matter-js/blob/master/README.md",
+    "https://github.com/liabru/matter-js/blob/master/LICENSE",
+    "https://github.com/liabru/matter-js/blob/master/src/core/Engine.js"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "MIT",
+  "license_note": "MIT from upstream LICENSE; retain applicable notices when distributing code.",
+  "package_names": ["matter-js"],
+  "integration_status": "existing",
+  "project_integration_note": "The MotionShowcase demo uses a reproducible 120 Hz Matter.js bake from scripts/motion-demo-physics.mjs; this is not a general interactive physics editor.",
+  "source_notes": "JavaScript 2D rigid-body engine; Engine.update accepts an explicit timestep in milliseconds. Bake or replay fixed-step simulation for frame rendering."
+}

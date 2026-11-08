@@ -1,0 +1,26 @@
+{
+  "test_id": "TEST-05",
+  "name": "Fantasy cartoon adhering to internal magic rules",
+  "work_type": "cartoon",
+  "world_mode": "fantasy",
+  "title": "นครลอยฟ้าแห่งศิลาเวท",
+  "bibles": {
+    "world_rules": "กฎของโลก: มนุษย์ทุกคนสามารถลอยตัวได้เมื่อถือ 'ศิลาวายุ' สีครามไว้ในมือ หากศิลาหลุดจากมือจะร่วงหล่นตามแรงโน้มถ่วงทันที"
+  },
+  "content": "ฉาก 1: ลิรินกำศิลาวายุสีครามแน่นในฝ่ามือ แล้วกระโดดออกจากหน้าผา ร่างของเธอลอยตัวเหาะข้ามหุบเหวได้อย่างสง่างาม\nฉาก 2: ลมกรรโชกแรงพัดศิลาหลุดจากมือลิริน ร่างของเธอเริ่มดิ่งลงสู่เบื้องล่างทันทีตามแรงโน้มถ่วง ก่อนที่เพื่อนนกอินทรียักษ์จะบินมารับ",
+  "evaluation": {
+    "scores": {
+      "world_logic": 9.5,
+      "character_continuity": 9.0,
+      "story_and_emotion": 8.8,
+      "visual_storytelling": 8.7,
+      "pacing": 8.5
+    },
+    "issues": []
+  },
+  "expected": {
+    "verdict": "PASS",
+    "has_critical_fail": false,
+    "passed": true
+  }
+}

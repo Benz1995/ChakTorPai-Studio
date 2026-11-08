@@ -1,0 +1,45 @@
+{
+  "test_id": "TEST-09",
+  "name": "Conflicting judge opinions adjudicated via evidence",
+  "work_type": "short-drama",
+  "world_mode": "realistic",
+  "title": "เดิมพันสุดท้ายในห้องดับจิต",
+  "content": "ฉาก: สารวัตรกานต์แอบเข้าไปในห้องเก็บศพตอนเที่ยงคืนเพื่อสแกนลายนิ้วมือศพเหยื่อด้วยสมาร์ทโฟนทั่วไป และปลดล็อกแอปธนาคารสำเร็จในทันที",
+  "evaluation": {
+    "scores": {
+      "story_logic": 6.5,
+      "emotion_and_character": 8.0,
+      "reality_and_feasibility": 5.0,
+      "narrative_pacing": 8.5,
+      "visual_continuity": 7.5
+    },
+    "debate_summary": [
+      {
+        "topic": "การใช้ลายนิ้วมือศพปลดล็อกสมาร์ทโฟน",
+        "advocate_challenge": "Devil's Advocate แย้งว่า ระบบ Capacitive Sensor บนสมาร์ทโฟนรุ่นใหม่ต้องการประจุไฟฟ้าชีวภาพจากเซลล์มนุษย์ที่มีชีวิต ศพที่เสียชีวิตแล้วหลายชั่วโมงจะไม่สามารถสแกนติด",
+        "judge_defense": "Audience Judge ชี้ว่าคนดูทั่วไป 90% ไม่ทราบเรื่องประจุไฟฟ้าชีวภาพ และจังหวะกำลังลุ้นระทึกดีมาก",
+        "resolution": "Chief Judge ตัดสิน: Truth Over Consensus แม้คนดูทั่วไปอาจไม่ทันสังเกต แต่เป็นข้อผิดพลาดเชิงนิติวิทยาศาสตร์ที่ทำให้งานเสียเกรด ให้จัดเป็น HIGH และใช้ Minimal Fix เพิ่มบทสนทนาว่าใช้เจลเหนี่ยวนำประจุไฟฟ้า หรือเป็นเซนเซอร์รุ่นเก่าแบบ Optical",
+        "verdict_impact": "ปรับปรุงจาก HIGH เป็นคำแนะนำทางเลือก ไม่ให้ติด Critical Failure"
+      }
+    ],
+    "issues": [
+      {
+        "id": "ISSUE-FORENSIC-01",
+        "judge": "physics-judge",
+        "category": "BIOMETRIC_FEASIBILITY",
+        "severity": "HIGH",
+        "location": "Morgue Scene",
+        "problem": "การสแกนลายนิ้วมือศพที่ตายแล้วหลายชั่วโมงด้วยเซนเซอร์ Capacitive ทั่วไป",
+        "evidence": "เซนเซอร์ Capacitive ทำงานด้วยประจุไฟฟ้าจากเนื้อเยื่อที่มีการไหลเวียนของอิเล็กโทรไลต์",
+        "why_it_matters": "ผู้เชี่ยวชาญหรือผู้ชมสายสืบสวนจะมองว่างานขาดการรีเสิร์ช",
+        "suggested_fix": "ให้สารวัตรใช้แผ่นเจลนำไฟฟ้าพิเศษของหน่วยพิสูจน์หลักฐานแปะทับก่อนสแกน",
+        "alternative_fix": "เปลี่ยนเป็นศพเพิ่งเสียชีวิตไม่ถึง 15 นาที หรือใช้การกรอกรหัส PIN ที่ค้นเจอในสมุดบันทึก"
+      }
+    ]
+  },
+  "expected": {
+    "verdict": "PASS_WITH_NOTES",
+    "has_critical_fail": false,
+    "passed": true
+  }
+}

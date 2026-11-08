@@ -1,0 +1,15 @@
+{
+  "tool": "OGL",
+  "repository": "oframe/ogl",
+  "repository_url": "https://github.com/oframe/ogl",
+  "docs_urls": [
+    "https://github.com/oframe/ogl/blob/master/README.md",
+    "https://github.com/oframe/ogl/blob/master/package.json"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "Unlicense",
+  "license_note": "package.json declares Unlicense; GitHub metadata returned no classification and reviewed repository root had no LICENSE file. Recheck the selected release.",
+  "package_names": ["ogl"],
+  "integration_status": "on-demand",
+  "source_notes": "Minimal WebGL abstraction with zero declared runtime dependencies. Custom shaders and explicit renderer calls need a frame-driven integration."
+}

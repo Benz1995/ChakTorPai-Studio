@@ -1,0 +1,19 @@
+{
+  "transcript": "จู่ ๆ มือถือทุกเครื่องในเมืองดังขึ้นพร้อมกัน",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.0,
+      "text": "จู่ ๆ มือถือทุกเครื่องในเมืองดังขึ้นพร้อมกัน"
+    }
+  ],
+  "language": "th",
+  "model": "thonburian-whisper-th-large-v3",
+  "device": "cpu",
+  "gpu": null,
+  "computeType": "int8",
+  "batchSize": 0,
+  "droppedNonThaiSegments": 0,
+  "gpuFallback": null,
+  "timingSource": "ASR segments"
+}

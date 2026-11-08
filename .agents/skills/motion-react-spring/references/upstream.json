@@ -1,0 +1,18 @@
+{
+  "tool": "React Spring",
+  "repository": "pmndrs/react-spring",
+  "repository_url": "https://github.com/pmndrs/react-spring",
+  "docs_urls": [
+    "https://github.com/pmndrs/react-spring/blob/next/README.md",
+    "https://github.com/pmndrs/react-spring/blob/next/LICENSE"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "MIT",
+  "license_note": "MIT in the checked LICENSE. Runtime package peer dependencies and target compatibility must be verified when installing.",
+  "package_names": [
+    "@react-spring/web",
+    "@react-spring/three"
+  ],
+  "integration_status": "on-demand",
+  "source_notes": "Cross-platform spring-physics animation supports declarative and imperative usage, DOM and React Three Fiber targets. Ordinary live useSpring behavior requires adaptation for deterministic frame capture."
+}

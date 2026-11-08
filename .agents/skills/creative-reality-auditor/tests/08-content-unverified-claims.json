@@ -1,0 +1,44 @@
+{
+  "test_id": "TEST-08",
+  "name": "Content with unverified claim properly flagged without hallucinations",
+  "work_type": "content",
+  "world_mode": "realistic",
+  "title": "เคล็ดลับสุขภาพกับชาสมุนไพรโบราณ",
+  "content": "สคริปต์: ชาใบมะกรูดป่าผสมพริกไทยดำนี้ สูตรลับจากยอดเขาแถบเอเชียกลาง ดื่มเพียง 1 แก้ว ช่วยกระตุ้นระบบเผาผลาญให้เบิร์นไขมันได้ 500 แคลอรีทันทีโดยไม่ต้องออกกำลังกาย",
+  "evaluation": {
+    "scores": {
+      "factual_accuracy": 5.0,
+      "audience_engagement": 8.5,
+      "story_structure": 7.5,
+      "clarity": 8.0,
+      "audience_fit": 7.5
+    },
+    "issues": [
+      {
+        "id": "ISSUE-UNVERIFIED-01",
+        "judge": "reality-judge",
+        "category": "UNVERIFIED_CLAIM",
+        "severity": "HIGH",
+        "location": "Body Section",
+        "problem": "การอ้างว่าดื่มชา 1 แก้วเผาผลาญ 500 แคลอรีทันทีโดยไม่ต้องออกกำลังกาย เป็นข้ออ้างที่ไม่มีงานวิจัยรองรับ",
+        "evidence": "ไม่มีรายงานทางคลินิกที่ยืนยันว่าสารประกอบในใบมะกรูดหรือพริกไทยสามารถเผาผลาญพลังงานได้เทียบเท่าการวิ่ง 5 กิโลเมตรทันที",
+        "why_it_matters": "เสี่ยงต่อการหลอกลวงผู้บริโภคและผิดกฎหมายคุ้มครองผู้บริโภค (อย.)",
+        "suggested_fix": "ปรับคำกล่าวอ้างให้สมเหตุสมผล: 'ช่วยกระตุ้นการไหลเวียนโลหิตและเพิ่มความสดชื่น'",
+        "alternative_fix": "ระบุว่า 'มีส่วนช่วยในกระบวนการเมแทบอลิซึม เมื่อรับประทานควบคู่กับการออกกำลังกาย'"
+      }
+    ],
+    "unverified_claims": [
+      {
+        "claim": "ดื่มชา 1 แก้วเผาผลาญ 500 แคลอรีทันที",
+        "location": "Body Section",
+        "status": "UNVERIFIED",
+        "required_verification": "ต้องมีงานวิจัย Double-blind randomized controlled trial อ้างอิง"
+      }
+    ]
+  },
+  "expected": {
+    "verdict": "PASS_WITH_NOTES",
+    "has_critical_fail": false,
+    "passed": true
+  }
+}

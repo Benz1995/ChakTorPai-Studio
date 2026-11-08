@@ -1,0 +1,36 @@
+{
+  "test_id": "TEST-10",
+  "name": "High overall score with confirmed critical failure (Strict Veto Test)",
+  "work_type": "short-drama",
+  "world_mode": "realistic",
+  "title": "เงื่อนตายในคฤหาสน์หรู",
+  "content": "บทละครสั้นโปรดักชันอลังการ ดนตรีเร้าใจ ตัวละครมีเสน่ห์ แต่ตอนคลี่คลายคดี นักสืบสรุปว่าเหยื่อกินยาพิษไซยาไนด์เข้าไปแล้วนอนหลับสบายไร้รอยบาดแผลและหัวใจเต้นช้าลงช้าๆ เหมือนคนหลับใหล",
+  "evaluation": {
+    "scores": {
+      "story_logic": 8.5,
+      "emotion_and_character": 9.2,
+      "reality_and_feasibility": 5.0,
+      "narrative_pacing": 9.5,
+      "visual_continuity": 9.0
+    },
+    "issues": [
+      {
+        "id": "ISSUE-CRIT-TOX",
+        "judge": "reality-judge",
+        "category": "TOXICOLOGY_REALITY",
+        "severity": "CRITICAL",
+        "location": "Climax Revelation Line 42",
+        "problem": "การบรรยายอาการพิษไซยาไนด์ว่า 'นอนหลับสบายอย่างสงบ ไร้รอยบาดแผล'",
+        "evidence": "พิษไซยาไนด์ขัดขวางกระบวนการใช้ออกซิเจนระดับเซลล์ (Cellular Hypoxia) ก่อให้เกิดอาการชักเกร็ง ขาดอากาศหายใจอย่างรุนแรง ตัวเขียวคล้ำ และดิ้นทุรนทุรายอย่างเจ็บปวดก่อนเสียชีวิต ไม่สามารถนอนหลับสบายได้",
+        "why_it_matters": "เป็นข้อผิดพลาดร้ายแรงทางนิติวิทยาศาสตร์และการแพทย์ ที่ขัดแย้งกับหลักสรีรวิทยาอย่างสิ้นเชิงในละครแนวสืบสวนสมจริง",
+        "suggested_fix": "เปลี่ยนสารพิษเป็นยานอนหลับกลุ่ม Barbiturate หรือสารระงับประสาทเกินขนาด ซึ่งสอดคล้องกับอาการหลับสงบ",
+        "alternative_fix": "แก้ไขบทบรรยายสภาพศพให้มีอาการชักเกร็งและรอยฟกช้ำจากการดิ้นรนตามอาการจริงของไซยาไนด์"
+      }
+    ]
+  },
+  "expected": {
+    "verdict": "REVISE",
+    "has_critical_fail": true,
+    "passed": false
+  }
+}

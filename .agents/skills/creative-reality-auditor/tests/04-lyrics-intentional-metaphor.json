@@ -1,0 +1,35 @@
+{
+  "test_id": "TEST-04",
+  "name": "Lyrics with intentional poetic metaphor (Zero False Positive)",
+  "work_type": "music",
+  "world_mode": "realistic",
+  "title": "ดวงดาวแหลกสลาย",
+  "content": "Verse: ในค่ำคืนที่ดวงอาทิตย์ถูกกลืนลงสู่ทะเลลึก\nChorus: หัวใจฉันแตกสลายกลายเป็นธุลีผง ละลายหายไปกับสายลมหนาว",
+  "evaluation": {
+    "scores": {
+      "meaning_and_story": 8.8,
+      "emotional_impact": 9.2,
+      "lyrics_and_singability": 8.5,
+      "song_structure": 8.0,
+      "originality": 8.0
+    },
+    "issues": [
+      {
+        "id": "ISSUE-META-01",
+        "judge": "physics-judge",
+        "category": "METAPHOR_CHECK",
+        "severity": "INFO",
+        "location": "Chorus Line 1",
+        "problem": "วลี 'หัวใจแตกสลายกลายเป็นธุลี' เป็นอุปลักษณ์เชิงอารมณ์ ไม่ใช่ความผิดพลาดทางกายภาพ",
+        "evidence": "เป็นโวหารภาพพจน์ (Hyperbole/Metaphor) สื่อถึงความเจ็บปวดทางอารมณ์",
+        "why_it_matters": "ต้องรักษาเจตนาทางศิลปะ ไม่บังคับใช้กฎฟิสิกส์กับบทกวี",
+        "suggested_fix": "คงเนื้อความเดิมไว้ตามเจตนารมณ์ผู้แต่ง"
+      }
+    ]
+  },
+  "expected": {
+    "verdict": "PASS",
+    "has_critical_fail": false,
+    "passed": true
+  }
+}

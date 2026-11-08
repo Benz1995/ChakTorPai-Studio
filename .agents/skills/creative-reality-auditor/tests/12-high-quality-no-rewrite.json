@@ -1,0 +1,35 @@
+{
+  "test_id": "TEST-12",
+  "name": "High quality creative work protected from arbitrary forced rewrites",
+  "work_type": "storytelling",
+  "world_mode": "realistic",
+  "title": "ความทรงจำในลิ้นชักไม้สน",
+  "content": "สคริปต์เสียง: 'เสียงนาฬิกาไขลานเก่าในห้องทำงานพ่อยังคงเดินเป็นจังหวะสม่ำเสมอ... ติ๊ก... ต็อก... มันเป็นเสียงเดียวที่เหลืออยู่ในบ้านหลังนี้ หลังจากที่เสียงหัวเราะของทุกคนค่อยๆ จางหายไปตามกาลเวลา ผมเอื้อมมือไปเปิดลิ้นชักไม้สนตัวเดิม กลิ่นกระดาษเก่าและน้ำหมึกยังคงลอยแตะจมูกเหมือนเมื่อยี่สิบปีก่อน'",
+  "evaluation": {
+    "scores": {
+      "narrative_logic_and_world": 9.6,
+      "emotional_and_character_depth": 9.8,
+      "pacing_and_tension": 9.2,
+      "voice_and_dialogue_craft": 9.7,
+      "audience_engagement": 9.0
+    },
+    "issues": [
+      {
+        "id": "ISSUE-POLISH-01",
+        "judge": "devils-advocate",
+        "category": "TASTE_NOTE",
+        "severity": "INFO",
+        "location": "Opening sentence",
+        "problem": "จังหวะเปิดเรื่องค่อนข้างเรียบเรื่อย เน้นสร้างบรรยากาศมากกว่ากระแทกด้วยเหตุการณ์ระทึกขวัญ",
+        "evidence": "เป็นความตั้งใจทางวรรณศิลป์ของผู้ประพันธ์ (Atmospheric Slow Burn)",
+        "why_it_matters": "ไม่ใช่ข้อผิดพลาด และไม่ควรบังคับเปลี่ยนเป็นสไตล์ Fast-paced",
+        "suggested_fix": "คงบทเดิมไว้ทั้งหมด ห้ามบังคับแก้เจตนารมณ์สร้างสรรค์"
+      }
+    ]
+  },
+  "expected": {
+    "verdict": "PASS",
+    "has_critical_fail": false,
+    "passed": true
+  }
+}

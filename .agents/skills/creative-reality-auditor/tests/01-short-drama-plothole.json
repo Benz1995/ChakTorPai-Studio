@@ -1,0 +1,36 @@
+{
+  "test_id": "TEST-01",
+  "name": "Short drama with fatal plot hole",
+  "work_type": "short-drama",
+  "world_mode": "realistic",
+  "title": "เงาแค้นในเงามืด (ตอนที่ 1)",
+  "content": "ฉาก 1: วินัยถูกคนร้ายยิงทะลุหัวใจต่อหน้าทุกคน หมอประกาศว่าเสียชีวิตชัดเจนในโรงพยาบาลและถูกฝังแล้ว\nฉาก 2: วันต่อมา นารียังนั่งร้องไห้ จู่ๆ วินัยก็เคาะประตูบ้านเดินเข้ามานั่งดื่มกาแฟและคุยกับนารีเหมือนไม่มีอะไรเกิดขึ้น",
+  "evaluation": {
+    "scores": {
+      "story_logic": 2.0,
+      "emotion_and_character": 5.0,
+      "reality_and_feasibility": 3.0,
+      "narrative_pacing": 6.0,
+      "visual_continuity": 7.0
+    },
+    "issues": [
+      {
+        "id": "ISSUE-01",
+        "judge": "story-logic-judge",
+        "category": "PLOT_HOLE",
+        "severity": "CRITICAL",
+        "location": "Scene 2",
+        "problem": "ตัวละครวินัยเสียชีวิตและฝังแล้วในฉาก 1 แต่กลับมาเดินคุยปกติในฉาก 2 โดยไม่มีคำอธิบาย",
+        "evidence": "ฉาก 1 ยืนยันการตายชัดเจน แต่ฉาก 2 กลับมามีชีวิตโดยไร้ lore หรือการเฉลยว่าเป็นภาพหลอน",
+        "why_it_matters": "ทำลายตรรกะพื้นฐานของเรื่องและทำให้คนดูหลุดจากเรื่องทันที",
+        "suggested_fix": "ให้ฉาก 2 เป็นภาพหลอนในใจของนารี (ให้นารีสะดุ้งตื่นพบว่าคือความฝัน)",
+        "alternative_fix": "เฉลยในฉาก 2 ว่าคนที่เดินเข้ามาคือ 'วิชัย' น้องชายฝาแฝดของวินัย"
+      }
+    ]
+  },
+  "expected": {
+    "verdict": "REVISE",
+    "has_critical_fail": true,
+    "passed": false
+  }
+}

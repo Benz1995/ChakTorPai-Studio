@@ -1,0 +1,6 @@
+interface:
+  display_name: "Frame Sequence Animation"
+  short_description: "Build timed animations from poses and sprite sheets"
+  default_prompt: "Use $frame-sequence-animation to create a consistent multi-frame animation asset for this BigO video."
+policy:
+  allow_implicit_invocation: true

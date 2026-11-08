@@ -1,0 +1,6 @@
+interface:
+  display_name: "HyperFrames"
+  short_description: "Render seekable HTML scenes into video assets"
+  default_prompt: "Use $motion-hyperframes for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Chatterbox"
+  short_description: "Evaluate and integrate optional voice synthesis"
+  default_prompt: "Use $motion-chatterbox for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

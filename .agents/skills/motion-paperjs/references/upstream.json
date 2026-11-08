@@ -1,0 +1,19 @@
+{
+  "tool": "Paper.js",
+  "repository": "paperjs/paper.js",
+  "repository_url": "https://github.com/paperjs/paper.js",
+  "docs_urls": [
+    "https://github.com/paperjs/paper.js/blob/develop/README.md",
+    "https://github.com/paperjs/paper.js/blob/develop/LICENSE.txt"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "MIT",
+  "license_note": "LICENSE.txt explicitly states MIT; repository API metadata classifies the license as Other. Preserve the actual file's notice when distributing code.",
+  "package_names": [
+    "paper",
+    "paper-jsdom",
+    "paper-jsdom-canvas"
+  ],
+  "integration_status": "on-demand",
+  "source_notes": "Vector scripting on Canvas supports browser and Node variants. Browser bundlers can use paper or paper-core; Node canvas rendering adds native Cairo/Pango dependencies."
+}

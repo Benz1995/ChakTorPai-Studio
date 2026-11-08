@@ -1,0 +1,6 @@
+interface:
+  display_name: "GL Transitions"
+  short_description: "Integrate shader transitions into video scenes"
+  default_prompt: "Use $motion-gl-transitions for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

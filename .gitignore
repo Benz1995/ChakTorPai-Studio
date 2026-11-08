@@ -1,0 +1,34 @@
+# Secrets and private environment keys
+.env
+.env.local
+*.key
+
+# Rendered video deliverables and intermediate shot files (exceeds GitHub 100MB limit)
+# เพื่อนหรือผู้ใช้งานสามารถรันสคริปต์ `render_episode.bat` เพื่อเรนเดอร์ไฟล์ MP4 เหล่านี้ได้ทันที
+*.mp4
+*.mov
+*.mkv
+*.webm
+*.avi
+render/shots.mp4
+render/*.mp4
+review/*.mp4
+review/test/*.mp4
+
+# Intermediate rendered audio bed (synthesized during render pipeline)
+audio/sfx-bed.wav
+*.wav
+
+# Python and system caches
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+*.log
+
+# Editor & temporary state
+.playwright-mcp/
+.DS_Store
+Thumbs.db

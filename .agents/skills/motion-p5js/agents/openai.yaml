@@ -1,0 +1,6 @@
+interface:
+  display_name: "p5.js"
+  short_description: "Create seeded generative visual sequences"
+  default_prompt: "Use $motion-p5js for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,36 @@
+{
+  "test_id": "TEST-06",
+  "name": "Cartoon with character continuity error",
+  "work_type": "cartoon",
+  "world_mode": "fantasy",
+  "title": "อัศวินน้อยกับดาบสนิม",
+  "content": "ช็อต 1: โทริสวมเสื้อคลุมสีแดงสด ตาข้างซ้ายมีแผลเป็น กำดาบสนิมด้วยมือขวา\nช็อต 2 (ต่อเนื่องในห้องเดียวกัน 2 วินาทีถัดมา): โทริหันหลังกลับมา เสื้อคลุมกลายเป็นสีเขียวมรกต แผลเป็นย้ายไปอยู่ตาขวา และมือขวากลายเป็นถือธนูไม้",
+  "evaluation": {
+    "scores": {
+      "world_logic": 8.0,
+      "character_continuity": 2.5,
+      "story_and_emotion": 7.0,
+      "visual_storytelling": 4.0,
+      "pacing": 7.5
+    },
+    "issues": [
+      {
+        "id": "ISSUE-CONT-01",
+        "judge": "visual-judge",
+        "category": "IDENTITY_MUTATION",
+        "severity": "CRITICAL",
+        "location": "Shot 2",
+        "problem": "เสื้อคลุมเปลี่ยนสีจากแดงเป็นเขียว แผลเป็นสลับข้าง และอาวุธกลายสภาพโดยไม่มีเหตุผล",
+        "evidence": "ช็อต 1 และ ช็อต 2 เกิดขึ้นต่อเนื่องในห้องเดียวกันแต่โมเดลตัวละครกลายพันธุ์",
+        "why_it_matters": "ทำลายความต่อเนื่องทางสายตา ทำให้คนดูเข้าใจผิดว่าเป็นตัวละครใหม่",
+        "suggested_fix": "ล็อก Prompt และ Asset ID ของโทริ: เสื้อคลุมสีแดง แผลเป็นตาซ้าย ถือดาบสนิม",
+        "alternative_fix": "หากจงใจแปลงร่าง ต้องเพิ่มเอฟเฟกต์ควันและช็อตการร่ายเวทมนตร์คั่นกลาง"
+      }
+    ]
+  },
+  "expected": {
+    "verdict": "REVISE",
+    "has_critical_fail": true,
+    "passed": false
+  }
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "OBS Studio"
+  short_description: "Capture selected windows for content production"
+  default_prompt: "Use $motion-obs for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

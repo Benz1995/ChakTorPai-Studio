@@ -1,0 +1,19 @@
+{
+  "tool": "HyperFrames",
+  "repository": "heygen-com/hyperframes",
+  "repository_url": "https://github.com/heygen-com/hyperframes",
+  "docs_urls": [
+    "https://github.com/heygen-com/hyperframes/blob/main/README.md",
+    "https://github.com/heygen-com/hyperframes/blob/main/LICENSE"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "Apache-2.0",
+  "license_note": "Apache-2.0 in the checked repository. Third-party adapters, media and services have separate terms.",
+  "package_names": [
+    "hyperframes",
+    "@hyperframes/core",
+    "@hyperframes/engine"
+  ],
+  "integration_status": "on-demand",
+  "source_notes": "HTML/CSS/media and seekable animation render through headless Chrome and FFmpeg. README specifies Node.js 22+ and a separate CLI workflow."
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Three.js"
+  short_description: "Build frame-driven 3D scenes and product shots"
+  default_prompt: "Use $motion-threejs for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

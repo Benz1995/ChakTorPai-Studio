@@ -1,0 +1,6 @@
+interface:
+  display_name: "OGL"
+  short_description: "Render controlled WebGL scenes and shaders"
+  default_prompt: "Use $motion-ogl for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

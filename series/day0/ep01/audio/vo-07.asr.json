@@ -1,0 +1,19 @@
+{
+  "transcript": "ต้นกล้าไม่ยอมทิ้งไดโนเสาร์ตัวเดียวของเขา",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.28,
+      "text": "ต้นกล้าไม่ยอมทิ้งไดโนเสาร์ตัวเดียวของเขา"
+    }
+  ],
+  "language": "th",
+  "model": "thonburian-whisper-th-large-v3",
+  "device": "cpu",
+  "gpu": null,
+  "computeType": "int8",
+  "batchSize": 0,
+  "droppedNonThaiSegments": 0,
+  "gpuFallback": null,
+  "timingSource": "ASR segments"
+}

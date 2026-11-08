@@ -1,0 +1,6 @@
+interface:
+  display_name: "Tone.js"
+  short_description: "Render synthesized music and effects offline"
+  default_prompt: "Use $motion-tonejs for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

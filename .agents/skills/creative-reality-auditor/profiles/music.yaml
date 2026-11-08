@@ -1,0 +1,43 @@
+profile_id: music
+name: "Music & Lyrics"
+description: "Quality assurance profile for Thai & multilingual song lyrics, structure, rhymes, meter, and emotional coherence."
+target_work_type: music
+default_world_mode: realistic
+weights:
+  meaning_and_story: 25
+  emotional_impact: 25
+  lyrics_and_singability: 20
+  song_structure: 20
+  originality: 10
+
+criteria_map:
+  meaning_and_story:
+    judge: music-judge
+    description: "Lyrical narrative coherence, POV consistency, emotional theme integrity across sections."
+  emotional_impact:
+    judge: emotion-judge
+    description: "Resonance with target audience, vulnerability, sincerity, emotional payoff in chorus/climax."
+  lyrics_and_singability:
+    judge: music-judge
+    description: "Syllable cadence, rhyme schemes (internal/external), natural spoken stress, absence of awkward tongue-twisters."
+  song_structure:
+    judge: music-judge
+    description: "Song architecture (Verse, Pre-Chorus, Chorus, Bridge, Outro), hook memorability and repetition balance."
+  originality:
+    judge: audience-judge
+    description: "Fresh metaphors vs tired clichés, distinctive phrasing, genre freshness."
+
+mandatory_judges:
+  - music-judge
+  - emotion-judge
+  - audience-judge
+  - devils-advocate
+  - chief-judge
+
+conditional_judges:
+  reality-judge: "Evaluated only for narrative/historical songs claiming real events."
+
+critical_failure_triggers:
+  - self_contradictory_pov_destroying_core_message
+  - nonsensical_rhyme_forcing_meaningless_words
+  - structural_omission_breaking_singability

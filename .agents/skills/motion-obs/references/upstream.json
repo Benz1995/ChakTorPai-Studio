@@ -1,0 +1,16 @@
+{
+  "tool": "OBS Studio",
+  "repository": "obsproject/obs-studio",
+  "repository_url": "https://github.com/obsproject/obs-studio",
+  "docs_urls": [
+    "https://github.com/obsproject/obs-studio/blob/master/README.rst",
+    "https://github.com/obsproject/obs-studio/blob/master/COPYING",
+    "https://obsproject.com/kb/standard-recording-output-guide"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "GPL-2.0-or-later",
+  "license_note": "README states GPL version 2 or later; review the installed application's distribution and bundled components if redistributing it.",
+  "package_names": [],
+  "integration_status": "on-demand",
+  "source_notes": "External recording/compositing/streaming application. Official guide recommends MKV for recording interruption resilience and supports remuxing to MP4. No capture integration is added to this project."
+}

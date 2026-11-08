@@ -1,0 +1,19 @@
+{
+  "transcript": "น้ำ ไฟฉาย วิทยุ ยา คุณยัตถ์ทุกอย่างลงเป้",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.88,
+      "text": "น้ำ ไฟฉาย วิทยุ ยา คุณยัตถ์ทุกอย่างลงเป้"
+    }
+  ],
+  "language": "th",
+  "model": "thonburian-whisper-th-large-v3",
+  "device": "cpu",
+  "gpu": null,
+  "computeType": "int8",
+  "batchSize": 0,
+  "droppedNonThaiSegments": 0,
+  "gpuFallback": null,
+  "timingSource": "ASR segments"
+}

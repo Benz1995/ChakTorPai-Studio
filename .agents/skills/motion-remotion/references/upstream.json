@@ -1,0 +1,19 @@
+{
+  "tool": "Remotion",
+  "repository": "remotion-dev/remotion",
+  "repository_url": "https://github.com/remotion-dev/remotion",
+  "docs_urls": [
+    "https://github.com/remotion-dev/remotion/blob/main/README.md",
+    "https://github.com/remotion-dev/remotion/blob/main/LICENSE.md"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "NOASSERTION",
+  "license_note": "Custom Remotion License; source-available with free/company eligibility terms. Check the installed release's LICENSE.md for the intended use.",
+  "package_names": [
+    "remotion",
+    "@remotion/player",
+    "@remotion/renderer"
+  ],
+  "integration_status": "existing",
+  "source_notes": "React code is the video source of truth; upstream offers Player, Node rendering and agent workflows. Existing project pins Remotion packages to 4.0.538."
+}

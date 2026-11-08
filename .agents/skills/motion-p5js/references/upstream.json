@@ -1,0 +1,17 @@
+{
+  "tool": "p5.js",
+  "repository": "processing/p5.js",
+  "repository_url": "https://github.com/processing/p5.js",
+  "docs_urls": [
+    "https://github.com/processing/p5.js/blob/main/README.md",
+    "https://github.com/processing/p5.js/blob/main/license.txt"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "LGPL-2.1",
+  "license_note": "Repository metadata reports LGPL-2.1; license.txt is GNU LGPL v2.1. Check the installed package and notices for code distribution; do not infer artwork licensing from the library alone.",
+  "package_names": [
+    "p5"
+  ],
+  "integration_status": "on-demand",
+  "source_notes": "Creative-coding library supports generative and audiovisual work. Its normal setup/draw lifecycle requires explicit frame-driven adaptation for reproducible exported content."
+}

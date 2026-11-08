@@ -1,0 +1,19 @@
+{
+  "transcript": "ถ้าคุณมีเวลาแค่ 15 นาที คุณจะเอาอะไรติดตัวไป?",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 4.18,
+      "text": "ถ้าคุณมีเวลาแค่ 15 นาที คุณจะเอาอะไรติดตัวไป?"
+    }
+  ],
+  "language": "th",
+  "model": "thonburian-whisper-th-large-v3",
+  "device": "cpu",
+  "gpu": null,
+  "computeType": "int8",
+  "batchSize": 0,
+  "droppedNonThaiSegments": 0,
+  "gpuFallback": null,
+  "timingSource": "ASR segments"
+}

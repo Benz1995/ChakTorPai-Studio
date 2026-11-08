@@ -1,0 +1,6 @@
+interface:
+  display_name: "PolyTale Series"
+  short_description: "Make PolyTale low-poly chibi story episodes from layers"
+  default_prompt: "Use $polytale-series to make the next PolyTale episode exactly as the skill describes."
+policy:
+  allow_implicit_invocation: true

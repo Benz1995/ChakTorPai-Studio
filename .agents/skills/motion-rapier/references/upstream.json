@@ -1,0 +1,16 @@
+{
+  "tool": "Rapier",
+  "repository": "dimforge/rapier",
+  "repository_url": "https://github.com/dimforge/rapier",
+  "docs_urls": [
+    "https://github.com/dimforge/rapier/blob/master/README.md",
+    "https://github.com/dimforge/rapier/blob/master/LICENSE",
+    "https://github.com/dimforge/rapier/blob/master/bindings/typescript/README.md"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "Apache-2.0",
+  "license_note": "Apache-2.0 from upstream LICENSE; preserve applicable license and notice requirements.",
+  "package_names": ["@dimforge/rapier3d", "@dimforge/rapier3d-compat", "@dimforge/rapier3d-deterministic-compat"],
+  "integration_status": "on-demand",
+  "source_notes": "Rust engine repository includes official TypeScript bindings. JavaScript packages distinguish standard, SIMD, deterministic and compat variants; standard builds do not promise cross-platform determinism."
+}

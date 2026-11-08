@@ -1,0 +1,36 @@
+{
+  "test_id": "TEST-03",
+  "name": "Lyrics with conflicting narrator POV destroying core message",
+  "work_type": "music",
+  "world_mode": "realistic",
+  "title": "รักลับหลัง",
+  "content": "Verse 1: ฉันแอบมองเธอมานานจากตรงนี้ ไม่เคยมีตัวตนในสายตาเธอเลย ได้แค่ส่งสายตาไกลๆ\nChorus: แต่เราสองคนแต่งงานกันมาสิบปี มีลูกด้วยกันสองคนแล้วนะที่รัก ทำไมเธอไม่หันมองฉัน",
+  "evaluation": {
+    "scores": {
+      "meaning_and_story": 3.0,
+      "emotional_impact": 5.0,
+      "lyrics_and_singability": 6.0,
+      "song_structure": 6.0,
+      "originality": 5.0
+    },
+    "issues": [
+      {
+        "id": "ISSUE-POV-01",
+        "judge": "music-judge",
+        "category": "POV_CONFLICT",
+        "severity": "CRITICAL",
+        "location": "Chorus Line 1",
+        "problem": "มุมมองผู้เล่าขัดแย้งกันอย่างรุนแรง ระหว่างคนแอบรักนิรนามกับสามีภรรยาที่แต่งงานมาสิบปี",
+        "evidence": "Verse 1 ระบุว่าไม่เคยมีตัวตนและแอบมองไกลๆ แต่ Chorus ระบุว่าแต่งงานกันมาสิบปีและมีลูกสองคน",
+        "why_it_matters": "ทำลายความหมายหลักของเพลง ผู้ฟังไม่สามารถเข้าใจสถานะของตัวละครได้",
+        "suggested_fix": "ปรับ Chorus ให้คงสถานะคนแอบรัก: 'ได้แต่ฝันว่าวันหนึ่งเราจะได้ยืนเคียงข้างกัน'",
+        "alternative_fix": "ปรับ Verse 1 ให้เป็นความสัมพันธ์แต่งงานที่จืดจาง: 'เธอนั่งตรงข้ามกัน แต่สายตาเหม่อลอยไปไกล'"
+      }
+    ]
+  },
+  "expected": {
+    "verdict": "REVISE",
+    "has_critical_fail": true,
+    "passed": false
+  }
+}

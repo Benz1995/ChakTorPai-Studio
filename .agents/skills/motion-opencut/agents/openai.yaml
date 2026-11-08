@@ -1,0 +1,6 @@
+interface:
+  display_name: "OpenCut"
+  short_description: "Prepare video assets for external timeline editing"
+  default_prompt: "Use $motion-opencut for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

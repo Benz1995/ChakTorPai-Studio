@@ -1,0 +1,15 @@
+{
+  "tool": "faster-whisper",
+  "repository": "SYSTRAN/faster-whisper",
+  "repository_url": "https://github.com/SYSTRAN/faster-whisper",
+  "docs_urls": [
+    "https://github.com/SYSTRAN/faster-whisper/blob/master/README.md",
+    "https://github.com/SYSTRAN/faster-whisper/blob/master/LICENSE"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "MIT",
+  "license_note": "Repository source uses MIT; selected model files and runtime dependencies should retain their own provenance.",
+  "package_names": ["faster-whisper"],
+  "integration_status": "on-demand",
+  "source_notes": "CTranslate2-based Whisper transcription with word_timestamps, VAD, CPU/GPU compute options, and lazy segment iteration. Word timestamps describe recognized speech; arbitrary-script forced alignment is not supplied by this interface."
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "React Spring"
+  short_description: "Design spring motion for React interfaces"
+  default_prompt: "Use $motion-react-spring for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

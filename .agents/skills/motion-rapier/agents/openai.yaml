@@ -1,0 +1,6 @@
+interface:
+  display_name: "Rapier"
+  short_description: "Simulate reproducible rigid-body collisions"
+  default_prompt: "Use $motion-rapier for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

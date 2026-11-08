@@ -1,0 +1,43 @@
+profile_id: content
+name: "Content Creator & Informative Shorts"
+description: "Quality assurance profile for TikTok, Reels, YouTube Shorts, educational explainers, and micro-documentaries."
+target_work_type: content
+default_world_mode: realistic
+weights:
+  factual_accuracy: 30
+  audience_engagement: 25
+  story_structure: 20
+  clarity: 15
+  audience_fit: 10
+
+criteria_map:
+  factual_accuracy:
+    judge: reality-judge
+    description: "Accuracy of historical, scientific, financial, or cultural claims; verifiable sources; UNVERIFIED tagging."
+  audience_engagement:
+    judge: audience-judge
+    description: "Hook strength (0-3s), drop-off risk identification, visual curiosity gaps, emotional hook."
+  story_structure:
+    judge: story-logic-judge
+    description: "Hook -> Context -> Climax/Insight -> Payoff/CTA structural delivery without wandering."
+  clarity:
+    judge: story-logic-judge
+    description: "Information density, absence of jargon confusion, easily digestible concepts."
+  audience_fit:
+    judge: audience-judge
+    description: "Tone, vocabulary, and pacing tailored to platform standards and target audience mindset."
+
+mandatory_judges:
+  - reality-judge
+  - audience-judge
+  - story-logic-judge
+  - devils-advocate
+  - chief-judge
+
+conditional_judges:
+  visual-judge: "Evaluated when presentation slides, diagrams, or video footage are attached."
+
+critical_failure_triggers:
+  - confirmed_dangerous_or_false_factual_claim
+  - misleading_clickbait_failing_to_deliver_in_content
+  - illegal_or_violative_advice_presented_as_fact

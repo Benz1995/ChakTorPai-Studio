@@ -1,0 +1,19 @@
+{
+  "transcript": "รถติดตายสะพานลอยแน่นจนขยับไม่ได้",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.52,
+      "text": "รถติดตายสะพานลอยแน่นจนขยับไม่ได้"
+    }
+  ],
+  "language": "th",
+  "model": "thonburian-whisper-th-large-v3",
+  "device": "cpu",
+  "gpu": null,
+  "computeType": "int8",
+  "batchSize": 0,
+  "droppedNonThaiSegments": 0,
+  "gpuFallback": null,
+  "timingSource": "ASR segments"
+}

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Paper.js"
+  short_description: "Animate vector paths and reusable SVG artwork"
+  default_prompt: "Use $motion-paperjs for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,6 @@
+interface:
+  display_name: "Remotion"
+  short_description: "Create frame-based React videos with Remotion"
+  default_prompt: "Use $motion-remotion for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

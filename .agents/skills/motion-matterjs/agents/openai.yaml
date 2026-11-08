@@ -1,0 +1,6 @@
+interface:
+  display_name: "Matter.js"
+  short_description: "Bake fixed-step 2D physics for video scenes"
+  default_prompt: "Use $motion-matterjs for the requested content work in this project."
+policy:
+  allow_implicit_invocation: true

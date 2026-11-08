@@ -1,0 +1,15 @@
+{
+  "tool": "glTF Transform",
+  "repository": "donmccurdy/glTF-Transform",
+  "repository_url": "https://github.com/donmccurdy/glTF-Transform",
+  "docs_urls": [
+    "https://github.com/donmccurdy/glTF-Transform/blob/main/README.md",
+    "https://github.com/donmccurdy/glTF-Transform/blob/main/LICENSE.md"
+  ],
+  "verified_on": "2026-10-26",
+  "license_spdx": "MIT",
+  "license_note": "MIT from upstream LICENSE.md; optimization does not change underlying asset rights.",
+  "package_names": ["@gltf-transform/core", "@gltf-transform/extensions", "@gltf-transform/functions", "@gltf-transform/cli"],
+  "integration_status": "on-demand",
+  "source_notes": "SDK and CLI read, edit and write glTF assets. Compression requires matching loader extension and decoder support; preserve source assets and validate animation/material output."
+}

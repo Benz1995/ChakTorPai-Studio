@@ -1,0 +1,19 @@
+{
+  "transcript": "พี่ ครับ เรา จะ ตาย ไหม อะ",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 2.226,
+      "text": "พี่ ครับ เรา จะ ตาย ไหม อะ"
+    }
+  ],
+  "language": "th",
+  "model": "thonburian-whisper-th-large-v3",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5070",
+  "computeType": "float16",
+  "batchSize": 4,
+  "droppedNonThaiSegments": 0,
+  "gpuFallback": null,
+  "timingSource": "ASR segments"
+}
